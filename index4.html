@@ -1,0 +1,959 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>优选家具</title>
+    <link href="./css/layout.css" rel="stylesheet" type="text/css"/>
+    <link href="./css/moudle.css" rel="stylesheet" type="text/css"/>
+    <link href="./css/state.css" rel="stylesheet" type="text/css"/>
+    <script src="./jquery/1/jquery-1.11.3.js"></script>
+    <script src="./jquery/3/jquery-3.4.1.js"></script>
+</head>
+<body>
+    <header id="header-top">
+        <div class="header">
+            <div class="header-fDiv">
+                <div class="header-logo">每天加一点创意</div>
+                <ul class="header-ul">
+                    <li>[<a href="#">登录</a>|<a href="#">注册</a>]</li>
+                    <li class="jiae1">
+                        <a href="#">我的加意</a>
+                        <div class="jiae1-div">
+							<img src="./img/article-default-pic.png" alt="加意新品"/>
+							<div class="personal">
+								<a href="#">个人中心</a>
+								<a href="#">我的足迹</a>
+								<a href="#">我的心愿单</a>
+								<a href="#">退出登录</a>
+							</div>
+						</div>
+                    </li>
+                    <li class="jiae2"><a href="#">我的订单</a></li>
+                    <li class="jiae3">
+                        <a href="#">手机加意</a>
+                        <div class="jiae3-img">
+							<img src="./img/ewm-wx-jiae.jpg"/>
+							<p>加意官方微信</p>
+						</div>
+                    </li>
+                </ul>
+            </div> 
+        </div>
+        <div class="head-two">
+            <article class="search">
+                <a href="index1.html" class="search-logo"></a>
+					<div class="search-div">
+						<input type="search" placeholder="山羊角咖啡杯" class="search-input"/>
+						<input type="image" src="./img/search.png" class="input-img"/>
+						<div class="search-cart">
+							<a href="#" title="Shopping Cart" class="cart"></a>
+							<div class="cart-div">
+								<div class="total">共计<span class="search-span1"> 0 </span>件商品</div>
+								<div class="total heji">合计<span class="search-span1"> 0 </span>元</div>
+								<a href="#" title="Settlement" class="search-a">立即结算</a>
+							</div>
+						</div>
+					</div>
+            </article>
+            <nav class="nav">
+                <div>
+                    <a href="#">新品</a>
+                </div>
+                <div class="nav-div">
+                    <a href="#">优选家居</a>
+                    <div class="nav-show">
+                        <a class="nav-icon">
+                            <img src="./img/tiexinsheji.png"/>
+                            <span class="nav-name">贴心设计</span>
+                        </a>
+                        <a class="nav-icon">
+                            <img src="./img/zawushouna.png"/>
+                            <span class="nav-name">杂物收纳</span>
+                        </a>
+                        <a class="nav-icon">
+                            <img src="./img/zhuyusan.png"/>
+                            <span class="nav-name">竹语伞</span>
+                        </a>
+                        <a class="nav-icon">
+                            <img src="./img/qijuriyong.png"/>
+                            <span class="nav-name">起居日用</span>
+                        </a>
+                        <a class="nav-icon">
+                            <img src="./img/jingzhishenghuo.jpg"/>
+                            <span class="nav-name">精致生活</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="nav-div">
+                    <a href="#">品味厨房</a>
+                    <div class="nav-show">
+                        <a href="#" class="nav-icon">
+                            <img src="./img/canju.png"/>
+                            <span class="nav-name">餐具</span>
+                        </a>
+                        <a href="#" class="nav-icon">
+                            <img src="./img/daoju.png"/>
+                            <span class="nav-name">刀具</span>
+                        </a>
+                        <a href="#" class="nav-icon">
+                            <img src="./img/chufangxiaobangshou.png"/>
+                            <span class="nav-name">厨房小帮手</span>
+                        </a>
+                        <a href="#" class="nav-icon">
+                            <img src="./img/fangchaobaoxian.png"/>
+                            <span class="nav-name">防潮保鲜</span>
+                        </a>
+                        <a href="#" class="nav-icon">
+                            <img src="./img/canju.png"/>
+                            <span class="nav-name">厨具</span>
+                        </a>
+                        <a href="#" class="nav-icon">
+                            <img src="./img/daoju.png"/>
+                            <span class="nav-name">实用小工具</span>
+                        </a>
+                        <a href="#" class="nav-icon">
+                            <img src="./img/jidantuo.png"/>
+                            <span class="nav-name">鸡蛋托&#38;泡茶器</span>
+                        </a>
+                        <a href="#" class="nav-icon">
+                            <img src="./img/anban.png"/>
+                            <span class="nav-name">砧板</span>
+                        </a>
+                        <a href="#" class="nav-icon">
+                            <img src="./img/shuihu.png"/>
+                            <span class="nav-name">水壶水杯</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="nav-div">
+                    <a href="#">生活电器</a>
+                    <div class="nav-show">
+                        <a href="#" class="nav-icon">
+                            <img src="./img/kongqijinghua.png"/>
+                            <span class="nav-name">空气净化</span>
+                        </a>
+                        <a href="#" class="nav-icon">
+                            <img src="./img/LED.png"/>
+                            <span class="nav-name">LED灯</span>
+                        </a>
+                        <a href="#" class="nav-icon">
+                            <img src="./img/taideng.png"/>
+                            <span class="nav-name">台灯</span>
+                        </a>
+                        <a href="#" class="nav-icon">
+                            <img src="./img/xiaojiadian.png"/>
+                            <span class="nav-name">小家电</span>
+                        </a>
+                        <a href="#" class="nav-icon">
+                            <img src="./img/zhongxilie.png"/>
+                            <span class="nav-name">钟系列</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="nav-div">
+                    <a href="#">极客数码</a>
+                    <div class="nav-show">
+                        <a href="#" class="nav-icon">
+                            <img src="./img/zhinnengshenghuo.png"/>
+                            <span class="nav-name">智能生活</span>
+                        </a>
+                        <a href="#" class="nav-icon">
+                            <img src="./img/shoujidadang.png"/>
+                            <span class="nav-name">手机搭档</span>
+                        </a>
+                        <a href="#" class="nav-icon">
+                            <img src="./img/diannao.png"/>
+                            <span class="nav-name">电脑周边</span>
+                        </a>
+                        <a href="#" class="nav-icon">
+                            <img src="./img/pingmuqingjie.png"/>
+                            <span class="nav-name">屏幕清洁</span>
+                        </a>
+                        <a href="#" class="nav-icon">
+                            <img src="./img/yidongdianyuan.png"/>
+                            <span class="nav-name">移动电源</span>
+                        </a>
+                        <a href="#" class="nav-icon">
+                            <img src="./img/yinxiang.png"/>
+                            <span class="nav-name">音箱</span>
+                        </a>
+                        <a href="#" class="nav-icon">
+                            <img src="./img/erji.png"/>
+                            <span class="nav-name">耳机</span>
+                        </a>
+                        <a href="#" class="nav-icon">
+                            <img src="./img/chazuo.png"/>
+                            <span class="nav-name">多功能插座</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="nav-div">
+                    <a href="#">美酒伴侣</a>
+                    <div class="nav-show">
+                        <a href="#" class="nav-icon">
+                            <img src="./img/hongjiu.png"/>
+                            <span class="nav-name">红酒伴侣</span>
+                        </a>
+                        <a href="#" class="nav-icon">
+                            <img src="./img/pingsai.png"/>
+                            <span class="nav-name">瓶塞</span>
+                        </a>
+                        <a href="#" class="nav-icon">
+                            <img src="./img/jiujia.png"/>
+                            <span class="nav-name">酒架</span>
+                        </a>
+                        <a href="#" class="nav-icon">
+                            <img src="./img/beitie.png"/>
+                            <span class="nav-name">杯帖</span>
+                        </a>
+                        <a href="#" class="nav-icon">
+                            <img src="./img/jiweijiu.png"/>
+                            <span class="nav-name">鸡尾酒</span>
+                        </a>
+                        <a href="#" class="nav-icon">
+                            <img src="./img/jiupinjiangwen.png"/>
+                            <span class="nav-name">酒品降温</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="nav-div">
+                    <a href="#">轻松办公</a>
+                    <div class="nav-show">
+                        <a href="#" class="nav-icon">
+                            <img src="./img/bangongzhushou.png"/>
+                            <span class="nav-name">办公助手</span>
+                        </a>
+                        <a href="#" class="nav-icon">
+                            <img src="./img/zhuomianshouna.png"/>
+                            <span class="nav-name">桌面收纳</span>
+                        </a>
+                        <a href="#" class="nav-icon">
+                            <img src="./img/zhuomianzhengli.png"/>
+                            <span class="nav-name">桌面整理</span>
+                        </a>
+                        <a href="#" class="nav-icon">
+                            <img src="./img/kajia.png"/>
+                            <span class="nav-name">卡夹</span>
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <a href="#">品牌</a>
+                </div>
+                <div>
+                    <a href="#">创意头条</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="CEO">
+            <img src="./img/youxuanjiajuImg-350.jpg" class="CEO-img"/>
+            <a href="#" class="CEO-a">
+                <div class="CEO-a-div">
+                    <img src="./img/jiaeCEO.png"/>
+                    <div class="CEO-content">
+                        <h1>我也喜欢宅在家里不出门</h1>
+                        <p> 加意所有人都是懂得过日子的人，工作之外有时间、有精力去经营生活，不能只看得见狭义工作的人来安排“家”的事情，肯定会缺点什么……</p>
+                    </div>
+                </div>
+            </a>
+        </section>
+        <section class="Selection">
+            <nav class="Selection-nav">
+                <a href="#" class="nav-one">优选家居:</a>
+                <a href="#CateLog-nav1" class="nav-icon nav-project">贴心设计</a>
+                <a href="#CateLog-nav2" class="nav-icon">杂物收纳</a>
+                <a href="#CateLog-nav3" class="nav-icon">竹语伞</a>
+                <a href="#CateLog-nav4" class="nav-icon">起居日用</a>
+                <a href="#CateLog-nav5" class="nav-icon">精致生活</a>
+            </nav>
+            <div class="selection-bigImg">
+                <img src="./img/CateLog-nav1youxuan.jpg"/>
+            </div>
+            <div class="top-sel">
+                <div class="top-div">
+                    <div class="considerate new-div">
+                        贴心设计
+                    </div>
+                    <div class="new-div">
+                        <img src="./img/便携折叠式双肩包 黑色.jpg"/>
+                        <div class="new-name">
+                            <a href="#">便携折叠式双肩包</a>
+                        </div>
+                        <div>
+                            <span class="new-money">￥175.00</span>
+                            <a href="#" class="new-A"></a>
+                        </div>
+                    </div>
+                    <div class="new-div">
+                        <img src="./img/Youxuan2.jpg"/>
+                        <div class="new-Name">
+                            <a href="#">太空记忆护颈枕 灰色</a>
+                            <span class="new-span">Travel Blue·英国</span>
+                        </div>
+                        <div>
+                            <span class="new-money">￥275.00</span>
+                            <a href="#" class="new-A"></a>
+                        </div>
+                    </div>
+                    <div class="new-div">
+                        <img src="./img/Youxuan3.jpg"/>
+                        <div class="new-Name">
+                            <a href="#">太空记忆护颈枕 紫色</a>
+                            <span class="new-span">Travel Blue·英国</span>
+                        </div>
+                        <div>
+                            <span class="new-money">￥245.00</span>
+                            <a href="#" class="new-A"></a>
+                        </div>
+                    </div>
+                    <div class="new-div">
+                        <img src="./img/Youxuan4.jpg"/>
+                        <div class="new-Name">
+                            <a href="#">太空记忆护颈枕 蓝色</a>
+                            <span class="new-span">Travel Blue·英国</span>
+                        </div>
+                        <div>
+                            <span class="new-money">￥245.00</span>
+                            <a href="#" class="new-A"></a>
+                        </div>
+                    </div>
+                    <div class="new-div">
+                        <img src="./img/Youxuan5.jpg"/>
+                        <div class="new-Name">
+                            <a href="#">舒适旅行2件套 蓝色 </a>
+                            <span class="new-span">Travel Blue·英国</span>
+                        </div>
+                        <div>
+                            <span class="new-money">￥145.00</span>
+                            <a href="#" class="new-A"></a>
+                        </div>
+                    </div>
+                    <div class="new-div">
+                        <img src="./img/Youxuan6.jpg"/>
+                        <div class="new-Name">
+                            <a href="#">微珠填充颈枕 黑色 </a>
+                            <span class="new-span">Travel Blue·英国</span>
+                        </div>
+                        <div>
+                            <span class="new-money">￥138.00</span>
+                            <a href="#" class="new-A"></a>
+                        </div>
+                    </div>
+                    <div class="new-div">
+                        <img src="./img/Youxuan7.jpg"/>
+                        <div class="new-Name">
+                            <a href="#">微珠填充颈枕 蓝色 </a>
+                            <span class="new-span">Travel Blue·英国</span>
+                        </div>
+                        <div>
+                            <span class="new-money">￥138.00</span>
+                            <a href="#" class="new-A"></a>
+                        </div>
+                    </div>
+                    <div class="new-div">
+                        <img src="./img/Youxuan8.jpg"/>
+                        <div class="new-Name">
+                            <a href="#">舒适旅行宁静2件套 蓝色 </a>            
+                        </div>
+                        <div>
+                            <span class="new-money">￥68.00</span>
+                            <a href="#" class="new-A"></a>
+                        </div>
+                    </div>
+                    <div class="new-div">
+                        <img src="./img/Youxuan9.jpg"/>
+                        <div class="new-Name">
+                            <a href="#">舒适透气3D眼罩 蓝色 </a>    
+                            <span class="new-span">Travel Blue·英国</span>  
+                        </div>
+                        <div>
+                            <span class="new-money">￥118.00</span>
+                            <a href="#" class="new-A"></a>
+                        </div>
+                    </div>
+                    <div class="new-div">
+                        <img src="./img/Youxuan10.jpg"/>
+                        <div class="new-Name">
+                            <a href="#">多功能挎包 黑色 </a> 
+                            <span class="new-span">Travel Blue·英国</span>  
+                        </div>
+                        <div>
+                            <span class="new-money">￥248.00</span>
+                            <a href="#" class="new-A"></a>
+                        </div>
+                    </div>
+                    <div class="new-div">
+                        <img src="./img/Youxuan11.jpg"/>
+                        <div class="new-Name">
+                            <a href="#">万用转换插座 白色 </a>
+                            <span class="new-span">Travel Blue·英国</span>  
+                        </div>
+                        <div>
+                            <span class="new-money">￥228.00</span>
+                            <a href="#" class="new-A"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="selection-bigImg">
+                <img src="./img/CateLog-nav2youxuan.jpg"/>
+            </div>
+            <div class="top-sel">
+                <div class="top-div">
+                    <div class="considerate new-div">
+                        杂物收纳
+                    </div>
+                    <div class="new-div">
+                        <img src="./img/Youxuan59.jpg"/>
+                        <div class="new-Name">
+                            <a href="#">桌面收纳盒(可做支架) 绿</a>
+                        </div>
+                        <div>
+                            <span class="new-money">￥29.00</span>
+                            <a href="#" class="new-A"></a>
+                        </div>
+                    </div>
+                    <div class="new-div">
+                        <img src="./img/Youxuan60.jpg"/>
+                        <div class="new-Name">
+                            <a href="#">桌面收纳盒(可做支架) 灰</a>
+                        </div>
+                        <div>
+                            <span class="new-money">￥29.00</span>
+                            <a href="#" class="new-A"></a>
+                        </div>
+                    </div>
+                    <div class="new-div">
+                        <img src="./img/Youxuan61.jpg"/>
+                        <div class="new-Name">
+                            <a href="#">收纳备忘板 白色 </a>
+                            <span class="new-span">Unkia·挪威</span>
+                        </div>
+                        <div>
+                            <span class="new-money">￥168.00</span>
+                            <a href="#" class="new-A"></a>
+                        </div>
+                    </div>
+                    <div class="new-div">
+                        <img src="./img/Youxuan62.jpg"/>
+                        <div class="new-Name">
+                            <a href="#">桌面零钱储物盒 红色 </a>
+                            <span class="new-span">Artiart·台湾</span>
+                        </div>
+                        <div>
+                            <span class="new-money">￥82.00</span>
+                            <a href="#" class="new-A"></a>
+                        </div>
+                    </div>
+                    <div class="new-div">
+                        <img src="./img/Youxuan63.jpg"/>
+                        <div class="new-Name">
+                            <a href="#">桌面零钱储物盒 绿色 </a>
+                            <span class="new-span">Artiart·台湾</span>
+                        </div>
+                        <div>
+                            <span class="new-money">￥82.00</span>
+                            <a href="#" class="new-A"></a>
+                        </div>
+                    </div>
+                    <div class="new-div">
+                        <img src="./img/Youxuan64.jpg"/>
+                        <div class="new-Name">
+                            <a href="#">壁挂式鹿头收纳架 红色 </a>
+                            <span class="new-span">Artiart·台湾</span>
+                        </div>
+                        <div>
+                            <span class="new-money">￥82.00</span>
+                            <a href="#" class="new-A"></a>
+                        </div>
+                    </div>
+                    <div class="new-div">
+                        <img src="./img/Youxuan65.jpg"/>
+                        <div class="new-Name">
+                            <a href="#">壁挂式鹿头收纳架 红色 </a>
+                            <span class="new-span">Artiart·台湾</span>
+                        </div>
+                        <div>
+                            <span class="new-money">￥82.00</span>
+                            <a href="#" class="new-A"></a>
+                        </div>
+                    </div>
+                    <div class="new-div">
+                        <img src="./img/Youxuan66.jpg"/>
+                        <div class="new-Name">
+                            <a href="#">壁挂式鹿头收纳架 红色 </a>
+                            <span class="new-span">Artiart·台湾</span>
+                        </div>
+                        <div>
+                            <span class="new-money">￥82.00</span>
+                            <a href="#" class="new-A"></a>
+                        </div>
+                    </div>
+                    <div class="new-div">
+                        <img src="./img/Youxuan67.jpg"/>
+                        <div class="new-Name">
+                            <a href="#">壁挂式鹿头收纳架 红色 </a>
+                            <span class="new-span">Artiart·台湾</span>
+                        </div>
+                        <div>
+                            <span class="new-money">￥82.00</span>
+                            <a href="#" class="new-A"></a>
+                        </div>
+                    </div>
+                    <div class="new-div">
+                        <img src="./img/Youxuan68.jpg"/>
+                        <div class="new-Name">
+                            <a href="#">壁挂式鹿头收纳架 红色 </a>
+                            <span class="new-span">Artiart·台湾</span>
+                        </div>
+                        <div>
+                            <span class="new-money">￥82.00</span>
+                            <a href="#" class="new-A"></a>
+                        </div>
+                    </div>
+                    <div class="new-div">
+                        <img src="./img/Youxuan69.jpg"/>
+                        <div class="new-Name">
+                            <a href="#">壁挂式鹿头收纳架 红色 </a>
+                            <span class="new-span">Artiart·台湾</span>
+                        </div>
+                        <div>
+                            <span class="new-money">￥82.00</span>
+                            <a href="#" class="new-A"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="selection-bigImg">
+                <img src="./img/CateLog-nav3youxuan.jpg"/>
+            </div>
+            <div class="top-sel">
+                <div class="top-div">
+                    <div class="considerate new-div">
+                        竹雨伞
+                    </div>
+                    <div class="new-div">
+                        <img src="./img/Youxuan78.jpg"/>
+                        <div class="new-Name">
+                            <a href="#">竹语生肖系列鸡年纪念款 </a>
+                        </div>
+                        <div>
+                            <span class="new-money">￥299.00</span>
+                            <a href="#" class="new-A"></a>
+                        </div>
+                    </div>
+                    <div class="new-div">
+                        <img src="./img/Youxuan79.jpg"/>
+                        <div class="new-Name">
+                            <a href="#">竹语生肖系列鸡年纪念款</a>
+                        </div>
+                        <div>
+                            <span class="new-money">￥499.00</span>
+                            <a href="#" class="new-A"></a>
+                        </div>
+                    </div>
+                    <div class="new-div">
+                        <img src="./img/Youxuan80.jpg"/>
+                        <div class="new-Name">
+                            <a href="#">竹语12星座系列伞 狮子 </a>
+                            <span class="new-span">BamBoo·中国</span>
+                        </div>
+                        <div>
+                            <span class="new-money">￥168.00</span>
+                            <a href="#" class="new-A"></a>
+                        </div>
+                    </div>
+                    <div class="new-div">
+                        <img src="./img/Youxuan81.jpg"/>
+                        <div class="new-Name">
+                            <a href="#">竹语12星座系列伞 白羊</a>
+                            <span class="new-span">BamBoo·中国</span>
+                        </div>
+                        <div>
+                            <span class="new-money">￥82.00</span>
+                            <a href="#" class="new-A"></a>
+                        </div>
+                    </div>
+                    <div class="new-div">
+                        <img src="./img/Youxuan81.jpg"/>
+                        <div class="new-Name">
+                            <a href="#">竹语12星座系列伞 金牛 </a>
+                            <span class="new-span">BamBoo·中国</span>
+                        </div>
+                        <div>
+                            <span class="new-money">￥82.00</span>
+                            <a href="#" class="new-A"></a>
+                        </div>
+                    </div>
+                    <div class="new-div">
+                        <img src="./img/Youxuan83.jpg"/>
+                        <div class="new-Name">
+                            <a href="#">竹语12星座系列伞 双子 </a>
+                            <span class="new-span">BamBoo·中国</span>
+                        </div>
+                        <div>
+                            <span class="new-money">￥82.00</span>
+                            <a href="#" class="new-A"></a>
+                        </div>
+                    </div>
+                    <div class="new-div">
+                        <img src="./img/Youxuan84.jpg"/>
+                        <div class="new-Name">
+                            <a href="#">竹语12星座系列伞 巨蟹 </a>
+                            <span class="new-span">BamBoo·中国</span>
+                        </div>
+                        <div>
+                            <span class="new-money">￥82.00</span>
+                            <a href="#" class="new-A"></a>
+                        </div>
+                    </div>
+                    <div class="new-div">
+                        <img src="./img/Youxuan85.jpg"/>
+                        <div class="new-Name">
+                            <a href="#">竹语12星座系列伞 射手 </a>
+                            <span class="new-span">BamBoo·中国</span>
+                        </div>
+                        <div>
+                            <span class="new-money">￥82.00</span>
+                            <a href="#" class="new-A"></a>
+                        </div>
+                    </div>
+                    <div class="new-div">
+                        <img src="./img/Youxuan86.jpg"/>
+                        <div class="new-Name">
+                            <a href="#">竹语12星座系列伞 处女</a>
+                            <span class="new-span">BamBoo·中国</span>
+                        </div>
+                        <div>
+                            <span class="new-money">￥82.00</span>
+                            <a href="#" class="new-A"></a>
+                        </div>
+                    </div>
+                    <div class="new-div">
+                        <img src="./img/Youxuan87.jpg"/>
+                        <div class="new-Name">
+                            <a href="#">竹语12星座系列伞 天秤</a>
+                            <span class="new-span">BamBoo·中国</span>
+                        </div>
+                        <div>
+                            <span class="new-money">￥82.00</span>
+                            <a href="#" class="new-A"></a>
+                        </div>
+                    </div>
+                    <div class="new-div">
+                        <img src="./img/Youxuan88.jpg"/>
+                        <div class="new-Name">
+                            <a href="#">竹语12星座系列伞 天蝎</a>
+                            <span class="new-span">BamBoo·中国</span>
+                        </div>
+                        <div>
+                            <span class="new-money">￥82.00</span>
+                            <a href="#" class="new-A"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="selection-bigImg">
+                <img src="./img/CateLog-nav4youxuan.jpg"/>
+            </div>
+            <div class="top-sel">
+                <div class="top-div">
+                    <div class="considerate new-div">
+                        起居日用
+                    </div>
+                    <div class="new-div">
+                        <img src="./img/Youxuan107.jpg"/>
+                        <div class="new-Name">
+                            <a href="#">智能声波电动牙刷 黑色 </a>
+                            <span class="new-span">Oracleen·中国</span>
+                        </div>
+                        <div>
+                            <span class="new-money">￥399.00</span>
+                            <a href="#" class="new-A"></a>
+                        </div>
+                    </div>
+                    <div class="new-div">
+                        <img src="./img/Youxuan108.jpg"/>
+                        <div class="new-Name">
+                            <a href="#">八音盒 榉木-椭圆 </a>
+                            <span class="new-span">beladesign·中国 </span>
+                        </div>
+                        <div>
+                            <span class="new-money">￥159.00</span>
+                            <a href="#" class="new-A"></a>
+                        </div>
+                    </div>
+                    <div class="new-div">
+                        <img src="./img/Youxuan109.jpg"/>
+                        <div class="new-Name">
+                            <a href="#">八音盒 黑胡桃-椭圆 </a>
+                            <span class="new-span">beladesign·中国 </span>
+                        </div>
+                        <div>
+                            <span class="new-money">￥189.00</span>
+                            <a href="#" class="new-A"></a>
+                        </div>
+                    </div>
+                    <div class="new-div">
+                        <img src="./img/Youxuan110.jpg"/>
+                        <div class="new-Name">
+                            <a href="#">甜梦双层格纹竹纤维被  竹纤维被-猫头鹰奥利</a>
+                            <span class="new-span">Bubble·英国</span>
+                        </div>
+                        <div>
+                            <span class="new-money">￥199.00</span>
+                            <a href="#" class="new-A"></a>
+                        </div>
+                    </div>
+                    <div class="new-div">
+                        <img src="./img/Youxuan111.jpg"/>
+                        <div class="new-Name">
+                            <a href="#">甜梦双层格纹竹纤维被  竹纤维被-点点雏菊</a>
+                            <span class="new-span">Bubble·英国</span>
+                        </div>
+                        <div>
+                            <span class="new-money">￥199.00</span>
+                            <a href="#" class="new-A"></a>
+                        </div>
+                    </div>
+                    <div class="new-div">
+                        <img src="./img/Youxuan112.jpg"/>
+                        <div class="new-Name">
+                            <a href="#">甜梦双层格纹竹纤维被  竹纤维被-航海日志</a>
+                            <span class="new-span">Bubble·英国</span>
+                        </div>
+                        <div>
+                            <span class="new-money">￥199.00</span>
+                            <a href="#" class="new-A"></a>
+                        </div>
+                    </div>
+                    <div class="new-div">
+                        <img src="./img/Youxuan113.jpg"/>
+                        <div class="new-Name">
+                            <a href="#">甜梦双层格纹竹纤维被  里被-猫头鹰奥利</a>
+                            <span class="new-span">Bubble·英国</span>
+                        </div>
+                        <div>
+                            <span class="new-money">￥199.00</span>
+                            <a href="#" class="new-A"></a>
+                        </div>
+                    </div>
+                    <div class="new-div">
+                        <img src="./img/Youxuan114.jpg"/>
+                        <div class="new-Name">
+                            <a href="#">甜梦双层格纹竹纤维被  里被-可爱小狗</a>
+                            <span class="new-span">Bubble·英国</span>
+                        </div>
+                        <div>
+                            <span class="new-money">￥199.00</span>
+                            <a href="#" class="new-A"></a>
+                        </div>
+                    </div>
+                    <div class="new-div">
+                        <img src="./img/Youxuan115.jpg"/>
+                        <div class="new-Name">
+                            <a href="#">甜梦双层格纹竹纤维被  里被-快乐小鲸鱼</a>
+                            <span class="new-span">Bubble·英国</span>
+                        </div>
+                        <div>
+                            <span class="new-money">￥199.00</span>
+                            <a href="#" class="new-A"></a>
+                        </div>
+                    </div>
+                    <div class="new-div">
+                        <img src="./img/Youxuan116.jpg"/>
+                        <div class="new-Name">
+                            <a href="#"> Playspot地垫  绿色/咖啡</a>
+                            <span class="new-span">Skip Hop·美国</span>
+                        </div>
+                        <div>
+                            <span class="new-money">￥769.00</span>
+                            <a href="#" class="new-A"></a>
+                        </div>
+                    </div>
+                    <div class="new-div">
+                        <img src="./img/Youxuan117.jpg"/>
+                        <div class="new-Name">
+                            <a href="#">宝宝安全带护套  小鸡（0-12月）</a>
+                            <span class="new-span">BamBoo·中国</span>
+                        </div>
+                        <div>
+                            <span class="new-money">￥142.00</span>
+                            <a href="#" class="new-A"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="selection-bigImg">
+                <img src="./img/CateLog-nav5youxuan.jpg"/>
+            </div>
+            <div class="top-sel">
+                <div class="top-div">
+                    <div class="considerate new-div">
+                        精致生活
+                    </div>
+                    <div class="new-div">
+                        <img src="./img/Youxuan187.jpg"/>
+                        <div class="new-Name">
+                            <a href="#">迷你酸奶机 褐色 </a>
+                            <span class="new-span">Jiae·中国</span>
+                        </div>
+                        <div>
+                            <span class="new-money">￥99.00</span>
+                            <a href="#" class="new-A"></a>
+                        </div>
+                    </div>
+                    <div class="new-div">
+                        <img src="./img/Youxuan188.jpg"/>
+                        <div class="new-Name">
+                            <a href="#">迷你酸奶机 褐色 </a>
+                            <span class="new-span">Jiae·中国</span>
+                        </div>
+                        <div>
+                            <span class="new-money">￥99.00</span>
+                            <a href="#" class="new-A"></a>
+                        </div>
+                    </div>
+                    <div class="new-div">
+                        <img src="./img/Youxuan189.jpg"/>
+                        <div class="new-Name">
+                            <a href="#">超声波香薰机 白色 </a>
+                            <span class="new-span">Jiae·中国</span>
+                        </div>
+                        <div>
+                            <span class="new-money">￥149.00</span>
+                            <a href="#" class="new-A"></a>
+                        </div>
+                    </div>
+                    <div class="new-div">
+                        <img src="./img/Youxuan190.jpg"/>
+                        <div class="new-Name">
+                            <a href="#">旅行蒸汽电熨斗Y-816 红色</a>
+                            <span class="new-span">优尔·中国</span>
+                        </div>
+                        <div>
+                            <span class="new-money">￥286.00</span>
+                            <a href="#" class="new-A"></a>
+                        </div>
+                    </div>
+                    <div class="new-div">
+                        <img src="./img/Youxuan191.jpg"/>
+                        <div class="new-Name">
+                            <a href="#">旅行蒸汽电熨斗Y-816 白色</a>
+                            <span class="new-span">优尔·中国</span>
+                        </div>
+                        <div>
+                            <span class="new-money">￥286.00</span>
+                            <a href="#" class="new-A"></a>
+                        </div>
+                    </div>
+                    <div class="new-div">
+                        <img src="./img/Youxuan192.jpg"/>
+                        <div class="new-Name">
+                            <a href="#">小萌菇灭蚊灯 白色 </a>
+                            <span class="new-span">Smart Frog·中国</span>
+                        </div>
+                        <div>
+                            <span class="new-money">¥198.00 </span>
+                            <a href="#" class="new-A"></a>
+                        </div>
+                    </div>
+                    <div class="new-div">
+                        <img src="./img/Youxuan193.jpg"/>
+                        <div class="new-Name">
+                            <a href="#">终结者灭蚊灯 白色 </a>
+                            <span class="new-span">Smart Frog·中国</span>
+                        </div>
+                        <div>
+                            <span class="new-money">￥238.00</span>
+                            <a href="#" class="new-A"></a>
+                        </div>
+                    </div>
+                    <div class="new-div">
+                        <img src="./img/Youxuan194.jpg"/>
+                        <div class="new-Name">
+                            <a href="#">智能声波电动牙刷 黑色</a>
+                            <span class="new-span">Oracleen·中国</span>
+                        </div>
+                        <div>
+                            <span class="new-money">￥399.00</span>
+                            <a href="#" class="new-A"></a>
+                        </div>
+                    </div>
+                    <div class="new-div">
+                        <img src="./img/Youxuan195.jpg"/>
+                        <div class="new-Name">
+                            <a href="#">飞乐思暖宫带 粉色 </a>
+                            <span class="new-span">Bubble·英国</span>
+                        </div>
+                        <div>
+                            <span class="new-money">￥299.00</span>
+                            <a href="#" class="new-A"></a>
+                        </div>
+                    </div>
+                    <div class="new-div">
+                        <img src="./img/Youxuan198.jpg"/>
+                        <div class="new-Name">
+                            <a href="#">沙漏伴睡灯 白色 </a>
+                            <span class="new-span">Skip Hop·美国</span>
+                        </div>
+                        <div>
+                            <span class="new-money">￥129.00</span>
+                            <a href="#" class="new-A"></a>
+                        </div>
+                    </div>
+                    <div class="new-div">
+                        <img src="./img/Youxuan197.jpg"/>
+                        <div class="new-Name">
+                            <a href="#">精美微风扇子   城市-黑色</a>
+                            <span class="new-span">Jiae·中国</span>
+                        </div>
+                        <div>
+                            <span class="new-money">￥208.00</span>
+                            <a href="#" class="new-A"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-div">
+            <div class="service">
+                <p>客服电话</p>
+                <p class="service-phone">4000-999-637</p>
+                <p>10:00-17:00（周一到周五）</p>
+                <p class="service-email">邮箱：e@jiae.com</p>
+                <p class="service-wechat">微信：18721163226</p>
+            </div>
+            <div class="service-two">
+                <p>加意新品</p>
+                <p>加意是中国唯一追求原创和个性化需求的电商及创意社群，我们用心连结真实的美和创意，让每个人都可以自信地创造及实现自在的生活！</p>
+                <div class="service-two-div">
+                    <a href="#">了解加意</a>
+                    <a href="#">ABOUT JIAE</a>
+                </div>
+            </div>
+            <div class="Wechat">
+                <p>扫码关注加意新品公众号</p>
+                <img src="./img/ewm-wx-jiae.jpg"/>
+            </div>
+        </div>
+        <div class="service-nav">
+            <a href="#">ABOUT JIAE</a>
+            <a href="#">了解加意</a>
+            <a href="#">配送与验收</a>
+            <a href="#">商务合作</a>
+            <a href="#">企业采购</a>
+            <a href="#">售后服务</a>
+            <a href="#">支付方式</a>
+            <a href="#">用户协议</a>
+            <a href="#">购物流程</a>
+        </div>
+    </footer>
+</body>
+</html>

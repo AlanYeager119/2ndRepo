@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>加意新品区-一种创意的生活方式</title>
+    <link href="./css/layout.css" rel="stylesheet" type="text/css"/>
+    <link href="./css/moudle.css" rel="stylesheet" type="text/css"/>
+    <link href="./css/state.css" rel="stylesheet" type="text/css"/>
+    <script src="./jquery/1/jquery-1.11.3.js"></script>
+    <script src="./jquery/3/jquery-3.4.1.js"></script>
+</head>
+<body>
+    <header id="header-top">
+        <div class="header">
+            <div class="header-fDiv">
+                <div class="header-logo">每天加一点创意</div>
+                <ul class="header-ul">
+                    <li>[<a href="#">登录</a>|<a href="#">注册</a>]</li>
+                    <li class="jiae1">
+                        <a href="#">我的加意</a>
+                        <div class="jiae1-div">
+							<img src="./img/article-default-pic.png" alt="加意新品"/>
+							<div class="personal">
+								<a href="#">个人中心</a>
+								<a href="#">我的足迹</a>
+								<a href="#">我的心愿单</a>
+								<a href="#">退出登录</a>
+							</div>
+						</div>
+                    </li>
+                    <li class="jiae2"><a href="#">我的订单</a></li>
+                    <li class="jiae3">
+                        <a href="#">手机加意</a>
+                        <div class="jiae3-img">
+							<img src="./img/ewm-wx-jiae.jpg"/>
+							<p>加意官方微信</p>
+						</div>
+                    </li>
+                </ul>
+            </div> 
+        </div>
+        <div class="head-two">
+            <article class="search">
+                <a href="index1.html" class="search-logo"></a>
+					<div class="search-div">
+						<input type="search" placeholder="山羊角咖啡杯" class="search-input"/>
+						<input type="image" src="./img/search.png" class="input-img"/>
+						<div class="search-cart">
+							<a href="#" title="Shopping Cart" class="cart"></a>
+							<div class="cart-div">
+								<div class="total">共计<span class="search-span1"> 0 </span>件商品</div>
+								<div class="total heji">合计<span class="search-span1"> 0 </span>元</div>
+								<a href="#" title="Settlement" class="search-a">立即结算</a>
+							</div>
+						</div>
+					</div>
+            </article>
+            <nav class="nav">
+                <div>
+                    <a href="#">新品</a>
+                </div>
+                <div class="nav-div">
+                    <a href="#">优选家居</a>
+                    <div class="nav-show">
+                        <a class="nav-icon">
+                            <img src="./img/tiexinsheji.png"/>
+                            <span class="nav-name">贴心设计</span>
+                        </a>
+                        <a class="nav-icon">
+                            <img src="./img/zawushouna.png"/>
+                            <span class="nav-name">杂物收纳</span>
+                        </a>
+                        <a class="nav-icon">
+                            <img src="./img/zhuyusan.png"/>
+                            <span class="nav-name">竹语伞</span>
+                        </a>
+                        <a class="nav-icon">
+                            <img src="./img/qijuriyong.png"/>
+                            <span class="nav-name">起居日用</span>
+                        </a>
+                        <a class="nav-icon">
+                            <img src="./img/jingzhishenghuo.jpg"/>
+                            <span class="nav-name">精致生活</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="nav-div">
+                    <a href="#">品味厨房</a>
+                    <div class="nav-show">
+                        <a href="#" class="nav-icon">
+                            <img src="./img/canju.png"/>
+                            <span class="nav-name">餐具</span>
+                        </a>
+                        <a href="#" class="nav-icon">
+                            <img src="./img/daoju.png"/>
+                            <span class="nav-name">刀具</span>
+                        </a>
+                        <a href="#" class="nav-icon">
+                            <img src="./img/chufangxiaobangshou.png"/>
+                            <span class="nav-name">厨房小帮手</span>
+                        </a>
+                        <a href="#" class="nav-icon">
+                            <img src="./img/fangchaobaoxian.png"/>
+                            <span class="nav-name">防潮保鲜</span>
+                        </a>
+                        <a href="#" class="nav-icon">
+                            <img src="./img/canju.png"/>
+                            <span class="nav-name">厨具</span>
+                        </a>
+                        <a href="#" class="nav-icon">
+                            <img src="./img/daoju.png"/>
+                            <span class="nav-name">实用小工具</span>
+                        </a>
+                        <a href="#" class="nav-icon">
+                            <img src="./img/jidantuo.png"/>
+                            <span class="nav-name">鸡蛋托&#38;泡茶器</span>
+                        </a>
+                        <a href="#" class="nav-icon">
+                            <img src="./img/anban.png"/>
+                            <span class="nav-name">砧板</span>
+                        </a>
+                        <a href="#" class="nav-icon">
+                            <img src="./img/shuihu.png"/>
+                            <span class="nav-name">水壶水杯</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="nav-div">
+                    <a href="#">生活电器</a>
+                    <div class="nav-show">
+                        <a href="#" class="nav-icon">
+                            <img src="./img/kongqijinghua.png"/>
+                            <span class="nav-name">空气净化</span>
+                        </a>
+                        <a href="#" class="nav-icon">
+                            <img src="./img/LED.png"/>
+                            <span class="nav-name">LED灯</span>
+                        </a>
+                        <a href="#" class="nav-icon">
+                            <img src="./img/taideng.png"/>
+                            <span class="nav-name">台灯</span>
+                        </a>
+                        <a href="#" class="nav-icon">
+                            <img src="./img/xiaojiadian.png"/>
+                            <span class="nav-name">小家电</span>
+                        </a>
+                        <a href="#" class="nav-icon">
+                            <img src="./img/zhongxilie.png"/>
+                            <span class="nav-name">钟系列</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="nav-div">
+                    <a href="#">极客数码</a>
+                    <div class="nav-show">
+                        <a href="#" class="nav-icon">
+                            <img src="./img/zhinnengshenghuo.png"/>
+                            <span class="nav-name">智能生活</span>
+                        </a>
+                        <a href="#" class="nav-icon">
+                            <img src="./img/shoujidadang.png"/>
+                            <span class="nav-name">手机搭档</span>
+                        </a>
+                        <a href="#" class="nav-icon">
+                            <img src="./img/diannao.png"/>
+                            <span class="nav-name">电脑周边</span>
+                        </a>
+                        <a href="#" class="nav-icon">
+                            <img src="./img/pingmuqingjie.png"/>
+                            <span class="nav-name">屏幕清洁</span>
+                        </a>
+                        <a href="#" class="nav-icon">
+                            <img src="./img/yidongdianyuan.png"/>
+                            <span class="nav-name">移动电源</span>
+                        </a>
+                        <a href="#" class="nav-icon">
+                            <img src="./img/yinxiang.png"/>
+                            <span class="nav-name">音箱</span>
+                        </a>
+                        <a href="#" class="nav-icon">
+                            <img src="./img/erji.png"/>
+                            <span class="nav-name">耳机</span>
+                        </a>
+                        <a href="#" class="nav-icon">
+                            <img src="./img/chazuo.png"/>
+                            <span class="nav-name">多功能插座</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="nav-div">
+                    <a href="#">美酒伴侣</a>
+                    <div class="nav-show">
+                        <a href="#" class="nav-icon">
+                            <img src="./img/hongjiu.png"/>
+                            <span class="nav-name">红酒伴侣</span>
+                        </a>
+                        <a href="#" class="nav-icon">
+                            <img src="./img/pingsai.png"/>
+                            <span class="nav-name">瓶塞</span>
+                        </a>
+                        <a href="#" class="nav-icon">
+                            <img src="./img/jiujia.png"/>
+                            <span class="nav-name">酒架</span>
+                        </a>
+                        <a href="#" class="nav-icon">
+                            <img src="./img/beitie.png"/>
+                            <span class="nav-name">杯帖</span>
+                        </a>
+                        <a href="#" class="nav-icon">
+                            <img src="./img/jiweijiu.png"/>
+                            <span class="nav-name">鸡尾酒</span>
+                        </a>
+                        <a href="#" class="nav-icon">
+                            <img src="./img/jiupinjiangwen.png"/>
+                            <span class="nav-name">酒品降温</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="nav-div">
+                    <a href="#">轻松办公</a>
+                    <div class="nav-show">
+                        <a href="#" class="nav-icon">
+                            <img src="./img/bangongzhushou.png"/>
+                            <span class="nav-name">办公助手</span>
+                        </a>
+                        <a href="#" class="nav-icon">
+                            <img src="./img/zhuomianshouna.png"/>
+                            <span class="nav-name">桌面收纳</span>
+                        </a>
+                        <a href="#" class="nav-icon">
+                            <img src="./img/zhuomianzhengli.png"/>
+                            <span class="nav-name">桌面整理</span>
+                        </a>
+                        <a href="#" class="nav-icon">
+                            <img src="./img/kajia.png"/>
+                            <span class="nav-name">卡夹</span>
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <a href="#">品牌</a>
+                </div>
+                <div>
+                    <a href="#">创意头条</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="arrivals">
+            <h2>NEW ARRIVALS</h2>
+            <div class="arrivals-div">
+                <a href="#" class="arrivals-div-a">
+                    <img src="./img/柠檬U站.jpg"/>
+                    <div class="arrivals-div-a-div">
+                        <img src="" alt="brand logo"/>
+                        <img src="./img/cart.png" alt="Shopping Cart"/>
+                    </div>
+                </a>
+                <a href="#" class="arrivals-div-a">
+                    <img src="./img/飞乐思暖宫带.jpg"/>
+                    <div class="arrivals-div-a-div">
+                        <img src="" alt="brand logo"/>
+                        <img src="./img/cart.png" alt="Shopping Cart"/>
+                    </div>
+                </a>
+                <a href="#" class="arrivals-div-a">
+                    <img src="./img/科大讯飞 阿尔法小蛋儿童陪教机器人.jpg"/>
+                    <div class="arrivals-div-a-div">
+                        <img src="" alt="brand logo"/>
+                        <img src="./img/cart.png" alt="Shopping Cart"/>
+                    </div>
+                </a>
+            </div>
+        </section>
+        <div class="comming">
+            <div class="comming-h2">
+                <h2 class="">最近<span class="hebdomad">一周</span>上架</h2>
+                <img src="./img/jiantou.png"/>
+            </div>
+            <div class="Area-new">
+                <div class="new-list">
+                    <img src="./img/卡儿酷汽车移动电源加湿器.jpg" />
+                    <div class="new-Name">
+                        <a href="#">卡儿酷汽车移动电源加湿器</a>
+                        <span class="new-span">Jiae•中国</span>
+                    </div>
+                    <div>
+                        <span class="new-money">￥399.00</span>
+                        <a href="#" class="new-A2"></a>
+                    </div>
+                </div>
+                <div class="new-list">
+                    <img src="./img/ifling数据线.jpg" />
+                    <div class="new-Name">
+                        <a href="#">ifling数据线</a>
+                        <span class="new-span">Jiae•中国</span>
+                    </div>
+                    <div>
+                        <span class="new-money">￥49.00</span>
+                        <a href="#" class="new-A2">极客数码</a>
+                    </div>
+                </div>
+                <div class="new-list">
+                    <img src="./img/榨冰沙拉一体机.jpg" />
+                    <div class="new-Name">
+                        <a href="#">榨冰沙拉一体机</a>
+                        <span class="new-span">Martube •中国</span>
+                    </div>
+                    <div>
+                        <span class="new-money">￥299.00</span>
+                        <a href="#" class="new-A2">品味厨房</a>
+                    </div>
+                </div>
+                <div class="new-list">
+                    <img src="./img/charble能量数据线.jpg" />
+                    <div class="new-Name">
+                        <a href="#">charble能量数据线</a>
+                        <span class="new-span">Martube •中国</span>
+                    </div>
+                    <div>
+                        <span class="new-money">￥128.00</span>
+                        <a href="#" class="new-A2">极客数码</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="comming">
+            <div class="comming-h2">
+                <h2 class="">最近<span class="hebdomad">一月</span>上架</h2>
+                <img src="./img/jiantou.png"/>
+            </div>
+            <div class="Area-new">
+                <div class="new-list">
+                    <img src="./img/Phone66P运动保护套2 .jpg" />
+                    <div class="new-Name">
+                        <a href="#">Phone 6/6P 运动保护套</a>
+                        <span class="new-span">Bone•台湾</span>
+                    </div>
+                    <div>
+                        <span class="new-money">￥198.00</span>
+                        <a href="#" class="new-A2">极客数码</a>
+                    </div>
+                </div>
+                <div class="new-list">
+                    <img src="./img/逗扣移动电源2.jpg" />
+                    <div class="new-Name">
+                        <a href="#">逗扣移动电源</a>
+                        <span class="new-span">Bone•台湾</span>
+                    </div>
+                    <div>
+                        <span class="new-money">￥368.00</span>
+                        <a href="#" class="new-A2">极客数码</a>
+                    </div>
+                </div>
+                <div class="new-list">
+                    <img src="./img/泡泡移动电源2.jpg" />
+                    <div class="new-Name">
+                        <a href="#">泡泡移动电源</a>
+                        <span class="new-span">Martube •中国</span>
+                    </div>
+                    <div>
+                        <span class="new-money">￥299.00</span>
+                        <a href="#" class="new-A2">品味厨房</a>
+                    </div>
+                </div>
+                <div class="new-list">
+                    <img src="./img/熊猫公仔造型移动电源2.jpg" />
+                    <div class="new-Name">
+                        <a href="#">熊猫公仔造型移动电源</a>
+                        <span class="new-span">Martube •中国</span>
+                    </div>
+                    <div>
+                        <span class="new-money">￥128.00</span>
+                        <a href="#" class="new-A2">极客数码</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="comming">
+            <div class="comming-h2">
+                <h2 class="">热销<span class="hebdomad">Top20</span></h2>
+                <img src="./img/jiantou.png"/>
+            </div>
+            <div class="Area-new">
+                <div class="new-list">
+                    <img src="./img/智能水发电闹钟2.jpg" />
+                    <div class="new-Name">
+                        <a href="#">智能水发电闹钟</a>
+                        <span class="new-span">Bone•台湾</span>
+                    </div>
+                    <div>
+                        <span class="new-money">￥98.00</span>
+                        <a href="#" class="new-A2">极客数码</a>
+                    </div>
+                </div>
+                <div class="new-list">
+                    <img src="./img/能量刀锋.jpg" />
+                    <div class="new-Name">
+                        <a href="#">能量刀锋充电宝</a>
+                        <span class="new-span">Bone•台湾</span>
+                    </div>
+                    <div>
+                        <span class="new-money">￥128.00</span>
+                        <a href="#" class="new-A2">极客数码</a>
+                    </div>
+                </div>
+                <div class="new-list">
+                    <img src="./img/智能水发电闹钟 M3.jpg" />
+                    <div class="new-Name">
+                        <a href="#">智能水发电闹钟</a>
+                        <span class="new-span">Martube •中国</span>
+                    </div>
+                    <div>
+                        <span class="new-money">￥299.00</span>
+                        <a href="#" class="new-A2">品味厨房</a>
+                    </div>
+                </div>
+                <div class="new-list">
+                    <img src="./img/熊猫公仔造型移动电源2.jpg" />
+                    <div class="new-Name">
+                        <a href="#">熊猫公仔造型移动电源</a>
+                        <span class="new-span">Martube •中国</span>
+                    </div>
+                    <div>
+                        <span class="new-money">￥128.00</span>
+                        <a href="#" class="new-A2">极客数码</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="comming">
+            <div class="comming-h2">
+                <h2 class=""><span class="hebdomad">超值</span>专区</h2>
+                <img src="./img/jiantou.png"/>
+            </div>
+            <div class="Area-new">
+                <div class="new-list">
+                    <img src="./img/AfterShokz AS600 耳机.jpg" />
+                    <div class="new-Name">
+                        <a href="#">AfterShokz AS600 耳机</a>
+                        <span class="new-span">Bone•台湾</span>
+                    </div>
+                    <div>
+                        <span class="new-money">￥198.00</span>
+                        <a href="#" class="new-A2">极客数码</a>
+                    </div>
+                </div>
+                <div class="new-list">
+                    <img src="./img/可立式多用叶子饭勺.jpg" />
+                    <div class="new-Name">
+                        <a href="#">可立式多用叶子饭勺</a>
+                        <span class="new-span">Bone•台湾</span>
+                    </div>
+                    <div>
+                        <span class="new-money">￥228.00</span>
+                        <a href="#" class="new-A2">极客数码</a>
+                    </div>
+                </div>
+                <div class="new-list">
+                    <img src="./img/创意不倒杯.jpg" />
+                    <div class="new-Name">
+                        <a href="#">创意不倒杯</a>
+                        <span class="new-span">Martube •中国</span>
+                    </div>
+                    <div>
+                        <span class="new-money">￥299.00</span>
+                        <a href="#" class="new-A2">品味厨房</a>
+                    </div>
+                </div>
+                <div class="new-list">
+                    <img src="./img/锋芒移动电源.jpg" />
+                    <div class="new-Name">
+                        <a href="#">锋芒移动电源</a>
+                        <span class="new-span">Martube •中国</span>
+                    </div>
+                    <div>
+                        <span class="new-money">￥128.00</span>
+                        <a href="#" class="new-A2">极客数码</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-div">
+            <div class="service">
+                <p>客服电话</p>
+                <p class="service-phone">4000-999-637</p>
+                <p>10:00-17:00（周一到周五）</p>
+                <p class="service-email">邮箱：e@jiae.com</p>
+                <p class="service-wechat">微信：18721163226</p>
+            </div>
+            <div class="service-two">
+                <p>加意新品</p>
+                <p>加意是中国唯一追求原创和个性化需求的电商及创意社群，我们用心连结真实的美和创意，让每个人都可以自信地创造及实现自在的生活！</p>
+                <div class="service-two-div">
+                    <a href="#">了解加意</a>
+                    <a href="#">ABOUT JIAE</a>
+                </div>
+            </div>
+            <div class="Wechat">
+                <p>扫码关注加意新品公众号</p>
+                <img src="./img/ewm-wx-jiae.jpg"/>
+            </div>
+        </div>
+        <div class="service-nav">
+            <a href="#">ABOUT JIAE</a>
+            <a href="#">了解加意</a>
+            <a href="#">配送与验收</a>
+            <a href="#">商务合作</a>
+            <a href="#">企业采购</a>
+            <a href="#">售后服务</a>
+            <a href="#">支付方式</a>
+            <a href="#">用户协议</a>
+            <a href="#">购物流程</a>
+        </div>
+    </footer>
+</body>
+</html>

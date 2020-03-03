@@ -1,0 +1,878 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>加意新品-一种创意的生活方式</title>
+    <link href="./css/layout.css" rel="stylesheet" type="text/css"/>
+    <link href="./css/moudle.css" rel="stylesheet" type="text/css"/>
+    <link href="./css/state.css" rel="stylesheet" type="text/css"/>
+    <script src="./jquery/1/jquery-1.11.3.js"></script>
+    <script src="./jquery/3/jquery-3.4.1.js"></script>
+</head>
+<body>
+    <header id="header-top">
+        <div class="header">
+            <div class="header-fDiv">
+                <div class="header-logo">每天加一点创意</div>
+                <ul class="header-ul">
+                    <li>[<a href="#">登录</a>|<a href="#">注册</a>]</li>
+                    <li class="jiae1">
+                        <a href="#">我的加意</a>
+                        <div class="jiae1-div">
+							<img src="./img/article-default-pic.png" alt="加意新品"/>
+							<div class="personal">
+								<a href="#">个人中心</a>
+								<a href="#">我的足迹</a>
+								<a href="#">我的心愿单</a>
+								<a href="#">退出登录</a>
+							</div>
+						</div>
+                    </li>
+                    <li class="jiae2"><a href="#">我的订单</a></li>
+                    <li class="jiae3">
+                        <a href="#">手机加意</a>
+                        <div class="jiae3-img">
+							<img src="./img/ewm-wx-jiae.jpg"/>
+							<p>加意官方微信</p>
+						</div>
+                    </li>
+                </ul>
+            </div> 
+        </div>
+        <div class="head-two">
+            <article class="search">
+                <a href="index1.html" class="search-logo"></a>
+					<div class="search-div">
+						<input type="search" placeholder="山羊角咖啡杯" class="search-input"/>
+						<input type="image" src="./img/search.png" class="input-img"/>
+						<div class="search-cart">
+							<a href="#" title="Shopping Cart" class="cart"></a>
+							<div class="cart-div">
+								<div class="total">共计<span class="search-span1"> 0 </span>件商品</div>
+								<div class="total heji">合计<span class="search-span1"> 0 </span>元</div>
+								<a href="#" title="Settlement" class="search-a">立即结算</a>
+							</div>
+						</div>
+					</div>
+            </article>
+            <nav class="nav">
+                <div>
+                    <a href="#">新品</a>
+                </div>
+                <div class="nav-div">
+                    <a href="#">优选家居</a>
+                    <div class="nav-show">
+                        <a class="nav-icon">
+                            <img src="./img/tiexinsheji.png"/>
+                            <span class="nav-name">贴心设计</span>
+                        </a>
+                        <a class="nav-icon">
+                            <img src="./img/zawushouna.png"/>
+                            <span class="nav-name">杂物收纳</span>
+                        </a>
+                        <a class="nav-icon">
+                            <img src="./img/zhuyusan.png"/>
+                            <span class="nav-name">竹语伞</span>
+                        </a>
+                        <a class="nav-icon">
+                            <img src="./img/qijuriyong.png"/>
+                            <span class="nav-name">起居日用</span>
+                        </a>
+                        <a class="nav-icon">
+                            <img src="./img/jingzhishenghuo.jpg"/>
+                            <span class="nav-name">精致生活</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="nav-div">
+                    <a href="#">品味厨房</a>
+                    <div class="nav-show">
+                        <a href="#" class="nav-icon">
+                            <img src="./img/canju.png"/>
+                            <span class="nav-name">餐具</span>
+                        </a>
+                        <a href="#" class="nav-icon">
+                            <img src="./img/daoju.png"/>
+                            <span class="nav-name">刀具</span>
+                        </a>
+                        <a href="#" class="nav-icon">
+                            <img src="./img/chufangxiaobangshou.png"/>
+                            <span class="nav-name">厨房小帮手</span>
+                        </a>
+                        <a href="#" class="nav-icon">
+                            <img src="./img/fangchaobaoxian.png"/>
+                            <span class="nav-name">防潮保鲜</span>
+                        </a>
+                        <a href="#" class="nav-icon">
+                            <img src="./img/canju.png"/>
+                            <span class="nav-name">厨具</span>
+                        </a>
+                        <a href="#" class="nav-icon">
+                            <img src="./img/daoju.png"/>
+                            <span class="nav-name">实用小工具</span>
+                        </a>
+                        <a href="#" class="nav-icon">
+                            <img src="./img/jidantuo.png"/>
+                            <span class="nav-name">鸡蛋托&#38;泡茶器</span>
+                        </a>
+                        <a href="#" class="nav-icon">
+                            <img src="./img/anban.png"/>
+                            <span class="nav-name">砧板</span>
+                        </a>
+                        <a href="#" class="nav-icon">
+                            <img src="./img/shuihu.png"/>
+                            <span class="nav-name">水壶水杯</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="nav-div">
+                    <a href="#">生活电器</a>
+                    <div class="nav-show">
+                        <a href="#" class="nav-icon">
+                            <img src="./img/kongqijinghua.png"/>
+                            <span class="nav-name">空气净化</span>
+                        </a>
+                        <a href="#" class="nav-icon">
+                            <img src="./img/LED.png"/>
+                            <span class="nav-name">LED灯</span>
+                        </a>
+                        <a href="#" class="nav-icon">
+                            <img src="./img/taideng.png"/>
+                            <span class="nav-name">台灯</span>
+                        </a>
+                        <a href="#" class="nav-icon">
+                            <img src="./img/xiaojiadian.png"/>
+                            <span class="nav-name">小家电</span>
+                        </a>
+                        <a href="#" class="nav-icon">
+                            <img src="./img/zhongxilie.png"/>
+                            <span class="nav-name">钟系列</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="nav-div">
+                    <a href="#">极客数码</a>
+                    <div class="nav-show">
+                        <a href="#" class="nav-icon">
+                            <img src="./img/zhinnengshenghuo.png"/>
+                            <span class="nav-name">智能生活</span>
+                        </a>
+                        <a href="#" class="nav-icon">
+                            <img src="./img/shoujidadang.png"/>
+                            <span class="nav-name">手机搭档</span>
+                        </a>
+                        <a href="#" class="nav-icon">
+                            <img src="./img/diannao.png"/>
+                            <span class="nav-name">电脑周边</span>
+                        </a>
+                        <a href="#" class="nav-icon">
+                            <img src="./img/pingmuqingjie.png"/>
+                            <span class="nav-name">屏幕清洁</span>
+                        </a>
+                        <a href="#" class="nav-icon">
+                            <img src="./img/yidongdianyuan.png"/>
+                            <span class="nav-name">移动电源</span>
+                        </a>
+                        <a href="#" class="nav-icon">
+                            <img src="./img/yinxiang.png"/>
+                            <span class="nav-name">音箱</span>
+                        </a>
+                        <a href="#" class="nav-icon">
+                            <img src="./img/erji.png"/>
+                            <span class="nav-name">耳机</span>
+                        </a>
+                        <a href="#" class="nav-icon">
+                            <img src="./img/chazuo.png"/>
+                            <span class="nav-name">多功能插座</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="nav-div">
+                    <a href="#">美酒伴侣</a>
+                    <div class="nav-show">
+                        <a href="#" class="nav-icon">
+                            <img src="./img/hongjiu.png"/>
+                            <span class="nav-name">红酒伴侣</span>
+                        </a>
+                        <a href="#" class="nav-icon">
+                            <img src="./img/pingsai.png"/>
+                            <span class="nav-name">瓶塞</span>
+                        </a>
+                        <a href="#" class="nav-icon">
+                            <img src="./img/jiujia.png"/>
+                            <span class="nav-name">酒架</span>
+                        </a>
+                        <a href="#" class="nav-icon">
+                            <img src="./img/beitie.png"/>
+                            <span class="nav-name">杯帖</span>
+                        </a>
+                        <a href="#" class="nav-icon">
+                            <img src="./img/jiweijiu.png"/>
+                            <span class="nav-name">鸡尾酒</span>
+                        </a>
+                        <a href="#" class="nav-icon">
+                            <img src="./img/jiupinjiangwen.png"/>
+                            <span class="nav-name">酒品降温</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="nav-div">
+                    <a href="#">轻松办公</a>
+                    <div class="nav-show">
+                        <a href="#" class="nav-icon">
+                            <img src="./img/bangongzhushou.png"/>
+                            <span class="nav-name">办公助手</span>
+                        </a>
+                        <a href="#" class="nav-icon">
+                            <img src="./img/zhuomianshouna.png"/>
+                            <span class="nav-name">桌面收纳</span>
+                        </a>
+                        <a href="#" class="nav-icon">
+                            <img src="./img/zhuomianzhengli.png"/>
+                            <span class="nav-name">桌面整理</span>
+                        </a>
+                        <a href="#" class="nav-icon">
+                            <img src="./img/kajia.png"/>
+                            <span class="nav-name">卡夹</span>
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <a href="#">品牌</a>
+                </div>
+                <div>
+                    <a href="#">创意头条</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <nav class="carousel">
+            <ul class="car-imgs">
+                <li>
+                    <a href="#" class="car-img"><img src="./img/Lunbo1.jpg"/></a>
+                </li>
+                <li>
+                    <a href="#" class="car-img"><img src="./img/Lunbo2.jpg"/></a>
+                </li>
+                <li>
+                    <a href="#" class="car-img"><img src="./img/Lunbo3.jpg"/></a>
+                </li>
+                <li>
+                    <a href="#" class="car-img"><img src="./img/Lunbo4.jpg"/></a>
+                </li>
+                <li>
+                    <a href="#" class="car-img"><img src="./img/Lunbo5.jpg"/></a>
+                </li>
+                <li>
+                    <a href="#" class="car-img"><img src="./img/Lunbo6.jpg"/></a>
+                </li>
+            </ul>
+            <ul class="car-btns" >
+                <li class="btn-img">
+                    <a href="#"><img src="./img/Lunbo1.jpg" class="SmallImg"/></a>
+                </li>
+                <li class="btn-img">
+                    <a href="#"><img src="./img/Lunbo2.jpg" class="SmallImg"/></a>
+                </li>
+                <li class="btn-img">
+                    <a href="#"><img src="./img/Lunbo3.jpg" class="SmallImg"/></a>
+                </li>
+                <li class="btn-img">
+                    <a href="#"><img src="./img/Lunbo4.jpg" class="SmallImg"/></a>
+                </li>
+                <li class="btn-img">
+                    <a href="#"><img src="./img/Lunbo5.jpg" class="SmallImg"/></a>
+                </li>
+                <li class="btn-img">
+                    <a href="#"><img src="./img/Lunbo6.jpg" class="SmallImg"/></a>
+                </li>
+            </ul>
+        </nav>
+        <div class="brand">
+            <div class="brand-div">
+                <div>
+                    <span class="brand-name">看大牌</span>
+                    <span class="brand-desc">用品质，打造VIP</span>
+                </div>
+                <a href="#" class="brand-more"><img src="./img/list.png"/>更多品牌</a>
+            </div>
+            <div class="area">
+                <div class="area-img ">
+                    <img src="./img/Bathfeeling浴见.jpg"/>
+                    <div>
+                        <a href="#">Bathfeeling浴见</a>
+                        <a href="#">中国</a>
+                    </div>
+                </div>
+                <div class="area-img">
+                    <img src="./img/Travel  Blue.jpg"/>
+                    <div>
+                        <a href="#">Travel  Blue</a>
+                        <a href="#">英国</a>
+                    </div>
+                </div>
+                <div class="area-img">
+                    <img src="./img/唤醒者.jpg"/>
+                    <div>
+                        <a href="#">唤醒者</a>
+                        <a href="#">中国-美国</a>
+                    </div>
+                </div>
+                <div class="area-img">
+                    <img src="./img/IMM Living.jpg"/>
+                    <div>
+                        <a href="#">IMM Living</a>
+                        <a href="#">加拿大</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="brand">
+            <div class="brand-div">
+                <div>
+                    <span class="brand-name">新品</span>
+                    <span class="brand-desc">以心，推新，总想给你最好的</span>
+                </div>
+                <a href="#" class="brand-more"><img src="./img/list.png"/>更多新品</a>
+            </div>
+            <div class="new">
+                <div class="new-list">
+                    <img src="./img/柠檬U站.jpg"/>
+                    <div class="new-name">
+                        <a href="#">柠檬U站</a>
+                    </div>
+                    <div>
+                        <span class="new-money">￥75.00</span>
+                        <a href="#" class="new-A"></a>
+                    </div>
+                </div>
+                <div class="new-list">
+                    <img src="./img/飞乐思暖宫带.jpg"/>
+                    <div class="new-name">
+                        <a href="#">飞乐思暖宫带</a>
+                    </div>
+                    <div>
+                        <span class="new-money">￥299.00</span>
+                        <a href="#" class="new-A"></a>
+                    </div>
+                </div>
+                <div class="new-list">
+                    <img src="./img/科大讯飞 阿尔法小蛋儿童陪教机器人.jpg"/>
+                    <div class="new-name">
+                        <a href="#">科大讯飞 阿尔法小蛋儿童陪教机器人</a>
+                    </div>
+                    <div>
+                        <span class="new-money">￥599.00</span>
+                        <a href="#" class="new-A"></a>
+                    </div>
+                </div>
+                <div class="new-list">
+                    <img src="./img/卡儿酷汽车移动电源加湿器.jpg"/>
+                    <div class="new-name">
+                        <a href="#">卡儿酷汽车移动电源加湿器</a>
+                        <span class="new-span">Jiae·中国</span>
+                    </div>
+                    <div>
+                        <span class="new-money">￥399.00</span>
+                        <a href="#" class="new-A"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="brand">
+            <div class="brand-div">
+                <div>
+                    <span class="brand-name">家具</span>
+                    <span class="brand-desc">精挑细选，只为生活更舒适</span>
+                </div>
+                <ul class="Area-furniture-ul">
+                    <li><img src="./img/tiexinsheji.png"/><a href="#" class="CateLog-nav1">贴心设计</a></li>
+                    <li><img src="./img/zawushouna.png"/><a href="#" class="CateLog-nav2">杂物收纳</a></li>
+                    <li><img src="./img/zhuyusan.png"/><a href="#" class="CateLog-nav3">竹语伞</a></li>
+                    <li><img src="./img/qijuriyong.png"/><a href="#" class="CateLog-nav4">起居日用</a></li>
+                </ul>
+            </div>
+            <div class="new">
+                <div class="new-list">
+                    <img src="./img/德国风暴伞迷你五折商务伞.jpg"/>
+                    <div class="new-name">
+                        <a href="#">德国风暴伞迷你五折商务伞</a>
+                        <span class="new-span">EURO SCHIRM·德</span>
+                    </div>
+                    <div>
+                        <span class="new-money">￥249.00</span>
+                        <a href="#" class="new-A"></a>
+                    </div>
+                </div>
+                <div class="new-list">
+                    <img src="./img/沙漏伴睡灯.gif"/>
+                    <div class="new-name">
+                        <a href="#">沙漏伴睡灯</a>
+                        <span class="new-span">Jiae·中国</span>
+                    </div>
+                    <div>
+                        <span class="new-money">￥128.00</span>
+                        <a href="#" class="new-A"></a>
+                    </div>
+                </div>
+                <div class="new-list">
+                    <img src="./img/超声波香薰机.jpg"/>
+                    <div class="new-name">
+                        <a href="#">超声波香薰机</a>
+                        <span class="new-span">Jiae·中国</span>
+                    </div>
+                    <div>
+                        <span class="new-money">￥149.00</span>
+                        <a href="#" class="new-A"></a>
+                    </div>
+                </div>
+                <div class="new-list">
+                    <img src="./img/智能声波电动牙刷.jpg"/>
+                    <div class="new-name">
+                        <a href="#">智能声波电动牙刷</a>
+                        <span class="new-span">Oracleen·中国</span>
+                    </div>
+                    <div>
+                        <span class="new-money">￥399.00</span>
+                        <a href="#" class="new-A"></a>
+                    </div>
+                </div>
+                <div class="new-list">
+                    <img src="./img/终结者灭蚊灯.jpg"/>
+                    <div class="new-name">
+                        <a href="#">终结者灭蚊灯</a>
+                        <span class="new-span">Smart Frog·中国</span>
+                    </div>
+                    <div>
+                        <span class="new-money">￥238.00</span>
+                        <a href="#" class="new-A"></a>
+                    </div>
+                </div>
+                <div class="new-list">
+                    <img src="./img/小萌菇灭蚊灯.jpg"/>
+                    <div class="new-name">
+                        <a href="#">小萌菇灭蚊灯</a>
+                        <span class="new-span">Smart Frog·中国</span>
+                    </div>
+                    <div>
+                        <span class="new-money">￥198.00</span>
+                        <a href="#" class="new-A"></a>
+                    </div>
+                </div>
+                <div class="new-list">
+                    <img src="./img/竹语 经典系列伞.jpg"/>
+                    <div class="new-name">
+                        <a href="#">竹语 经典系列伞</a>
+                        <span class="new-span">BamBoo·中国</span>
+                    </div>
+                    <div>
+                        <span class="new-money">￥249.00</span>
+                        <a href="#" class="new-A"></a>
+                    </div>
+                </div>
+                <div class="new-list">
+                    <img src="./img/竹语春の花伞系列.jpg"/>
+                    <div class="new-name">
+                        <a href="#">竹语春の花伞系列</a>
+                        <span class="new-span">BamBoo·中国</span>
+                    </div>
+                    <div>
+                        <span class="new-money">￥299.00</span>
+                        <a href="#" class="new-A"></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="good-thing">更多家居好物<img src="./img/goto.png"/></a>
+        </div>
+        <div class="brand">
+            <div class="brand-div">
+                <div>
+                    <span class="brand-name">厨具</span>
+                    <span class="brand-desc">家的味道，爱的味道</span>
+                </div>
+                <ul class="Area-furniture-ul">
+                    <li><img src="./img/canju.png"/><a href="#">餐具</a></li>
+                    <li><img src="./img/daoju.png"/><a href="#">刀具</a></li>
+                    <li><img src="./img/chufangxiaobangshou.png"/><a href="#">厨房小帮手</a></li>
+                    <li><img src="./img/fangchaobaoxian.png"/><a href="#">防潮保鲜</a></li>
+                </ul>
+            </div>
+            <div class="new">
+                <div class="new-list">
+                    <img src="./img/1(4).jpg"/>
+                    <div class="new-name">
+                        <a href="#">九猪迷你榨汁杯二代</a>
+                        <span class="new-span">Jiae·中国</span>
+                    </div>
+                    <div>
+                        <span class="new-money">￥99.00</span>
+                        <a href="#" class="new-A"></a>
+                    </div>
+                </div>
+                <div class="new-list">
+                    <img src="./img/7L.jpg"/>
+                    <div class="new-name">
+                        <a href="#">意大利进口高压锅 7L</a>
+                        <span class="new-span">LAGOSTINA·意大利</span>
+                    </div>
+                    <div>
+                        <span class="new-money">￥2580.00</span>
+                        <a href="#" class="new-A"></a>
+                    </div>
+                </div>
+                <div class="new-list">
+                    <img src="./img/5l.jpg"/>
+                    <div class="new-name">
+                        <a href="#">意大利进口高压锅 5L</a>
+                        <span class="new-span">LAGOSTINA·意大利</span>
+                    </div>
+                    <div>
+                        <span class="new-money">￥1580.00</span>
+                        <a href="#" class="new-A"></a>
+                    </div>
+                </div>
+                <div class="new-list">
+                    <img src="./img/minizhazhiji.jpg"/>
+                    <div class="new-name">
+                        <a href="#">迷你便携电动榨汁机</a>
+                        <span class="new-span">Jiae·中国</span>
+                    </div>
+                    <div>
+                        <span class="new-money">￥159.00</span>
+                        <a href="#" class="new-A"></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="good-thing">更多家居好物<img src="./img/goto.png"/></a>
+        </div>
+
+        <div class="brand">
+            <div class="brand-div">
+                <div>
+                    <span class="brand-name">数码</span>
+                    <span class="brand-desc">用科技改变生活</span>
+                </div>
+                <ul class="Area-furniture-ul">
+                    <li><img src="./img/zhinnengshenghuo.png"/><a href="#" class="CateLog-nav1">智能生活</a></li>
+						<li><img src="./img/shoujidadang.png"/><a href="#" class="CateLog-nav2">手机搭档</a></li>
+						<li><img src="./img/diannao.png"/><a href="#" class="CateLog-nav3">电脑周边</a></li>
+						<li><img src="./img/pingmuqingjie.png"/><a href="#" class="CateLog-nav4">屏幕清洁</a></li>
+                </ul>
+            </div>
+            <div class="new">
+                <div class="new-list">
+                    <img src="./img/huwailanyayinxiang.gif"/>
+                    <div class="new-name">
+                        <a href="#">户外蓝牙音箱</a>
+                        <span class="new-span">Xoopar·香港</span>
+                    </div>
+                    <div>
+                        <span class="new-money">￥152.00</span>
+                        <a href="#" class="new-A"></a>
+                    </div>
+                </div>
+                <div class="new-list">
+                    <img src="./img/熊猫公仔造型移动电源.jpg"/>
+                    <div class="new-name">
+                        <a href="#">熊猫公仔造型移动电源</a>
+                        <span class="new-span">Bone·台湾</span>
+                    </div>
+                    <div>
+                        <span class="new-money">￥298.00</span>
+                        <a href="#" class="new-A"></a>
+                    </div>
+                </div>
+                <div class="new-list">
+                    <img src="./img/5l.jpg"/>
+                    <div class="new-name">
+                        <a href="#">意大利进口高压锅 5L</a>
+                        <span class="new-span">LAGOSTINA·意大利</span>
+                    </div>
+                    <div>
+                        <span class="new-money">￥1580.00</span>
+                        <a href="#" class="new-A"></a>
+                    </div>
+                </div>
+                <div class="new-list">
+                    <img src="./img/minizhazhiji.jpg"/>
+                    <div class="new-name">
+                        <a href="#">迷你便携电动榨汁机</a>
+                        <span class="new-span">Jiae·中国</span>
+                    </div>
+                    <div>
+                        <span class="new-money">￥159.00</span>
+                        <a href="#" class="new-A"></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="good-thing">更多家居好物<img src="./img/goto.png"/></a>
+        </div>
+
+        <div class="brand">
+            <div class="brand-div">
+                <div>
+                    <span class="brand-name">酒具</span>
+                    <span class="brand-desc">醇醪佳酿，岂可无美器作陪</span>
+                </div>
+                <ul class="Area-furniture-ul">
+                    <li><img src="./img/hongjiu.png"/><a href="#" class="CateLog-nav1">红酒</a></li>
+                    <li><img src="./img/pingsai.png"/><a href="#" class="CateLog-nav2">瓶塞</a></li>
+                    <li><img src="./img/jiujia.png"/><a href="#" class="CateLog-nav3">酒架</a></li>
+                    <li><img src="./img/beitie.png"/><a href="#" class="CateLog-nav4">杯贴</a></li>
+                </ul>
+            </div>
+            <div class="new">
+                <div class="new-list">
+                    <img src="./img/玻璃快速醒酒器.jpg"/>
+                    <div class="new-name">
+                        <a href="#">玻璃快速醒酒器</a>
+                        <span class="new-span">Soirée home·美国</span>
+                    </div>
+                    <div>
+                        <span class="new-money">￥162.00</span>
+                        <a href="#" class="new-A"></a>
+                    </div>
+                </div>
+                <div class="new-list">
+                    <img src="./img/酒水饮料冰杯.gif"/>
+                    <div class="new-name">
+                        <a href="#">酒水饮料冰杯</a>
+                        <span class="new-span">Soirée home·美国</span>
+                    </div>
+                    <div>
+                        <span class="new-money">￥326.00</span>
+                        <a href="#" class="new-A"></a>
+                    </div>
+                </div>
+                <div class="new-list">
+                    <img src="./img/5l.jpg"/>
+                    <div class="new-name">
+                        <a href="#">意大利进口高压锅 5L</a>
+                        <span class="new-span">LAGOSTINA·意大利</span>
+                    </div>
+                    <div>
+                        <span class="new-money">￥1580.00</span>
+                        <a href="#" class="new-A"></a>
+                    </div>
+                </div>
+                <div class="new-list">
+                    <img src="./img/minizhazhiji.jpg"/>
+                    <div class="new-name">
+                        <a href="#">迷你便携电动榨汁机</a>
+                        <span class="new-span">Jiae·中国</span>
+                    </div>
+                    <div>
+                        <span class="new-money">￥159.00</span>
+                        <a href="#" class="new-A"></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="good-thing">更多家居好物<img src="./img/goto.png"/></a>
+        </div>
+
+        <div class="brand">
+            <div class="brand-div">
+                <div>
+                    <span class="brand-name">电器</span>
+                    <span class="brand-desc">让生活更便利一些</span>
+                </div>
+                <ul class="Area-furniture-ul">
+                    <li><img src="./img/kongqijinghua.png"/><a href="#" class="CateLog-nav1">空气净化</a></li>
+                    <li><img src="./img/LED.png"/><a href="#" class="CateLog-nav2">LED灯</a></li>
+                    <li><img src="./img/taideng.png"/><a href="#" class="CateLog-nav3">台灯</a></li>
+                    <li><img src="./img/xiaojiadian.png"/><a href="#" class="CateLog-nav4">小家电</a></li>
+                </ul>
+            </div>
+            <div class="new">
+                <div class="new-list">
+                    <img src="./img/水百合迷你加湿器.jpg"/>
+                    <div class="new-name">
+                        <a href="#">水百合迷你加湿器</a>
+                        <span class="new-span">Smart Frog·中国</span>
+                    </div>
+                    <div>
+                        <span class="new-money">￥88.00</span>
+                        <a href="#" class="new-A"></a>
+                    </div>
+                </div>
+                <div class="new-list">
+                    <img src="./img/折纸书灯.jpg"/>
+                    <div class="new-name">
+                        <a href="#">折纸书灯</a>
+                        <span class="new-span">Jiae·中国</span>
+                    </div>
+                    <div>
+                        <span class="new-money">￥399.00</span>
+                        <a href="#" class="new-A"></a>
+                    </div>
+                </div>
+                <div class="new-list">
+                    <img src="./img/旅行电热水壶.gif"/>
+                    <div class="new-name">
+                        <a href="#">旅行电热水壶</a>
+                        <span class="new-span">优尔·中国</span>
+                    </div>
+                    <div>
+                        <span class="new-money">￥138.00</span>
+                        <a href="#" class="new-A"></a>
+                    </div>
+                </div>
+                <div class="new-list">
+                    <img src="./img/minizhazhiji.jpg"/>
+                    <div class="new-name">
+                        <a href="#">迷你便携电动榨汁机</a>
+                        <span class="new-span">Jiae·中国</span>
+                    </div>
+                    <div>
+                        <span class="new-money">￥159.00</span>
+                        <a href="#" class="new-A"></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="good-thing">更多家居好物<img src="./img/goto.png"/></a>
+        </div>
+
+        <div class="brand">
+            <div class="brand-div">
+                <div>
+                    <span class="brand-name">大家感兴趣的产品</span>
+                </div>
+            </div>
+            <div class="new">
+                <div class="new-list">
+                    <img src="./img/公仔蓝牙音箱.jpg"/>
+                    <div class="new-name">
+                        <a href="#">公仔蓝牙音箱</a>
+                        <span class="new-span">Xoopar·香港</span>
+                    </div>
+                    <div>
+                        <span class="new-money">￥368.00</span>
+                        <a href="#" class="new-A"></a>
+                    </div>
+                </div>
+                <div class="new-list">
+                    <img src="./img/小猪蛋黄分离器.jpg"/>
+                    <div class="new-name">
+                        <a href="#">小猪蛋黄分离器</a>
+                        <span class="new-span">Peleg design·以色列</span>
+                    </div>
+                    <div>
+                        <span class="new-money">￥118.00</span>
+                        <a href="#" class="new-A"></a>
+                    </div>
+                </div>
+                <div class="new-list">
+                    <img src="./img/动物皇冠白瓷储蓄.jpg"/>
+                    <div class="new-name">
+                        <a href="#">动物皇冠白瓷储蓄</a>
+                        <span class="new-span">IMM Living·加拿大</span>
+                    </div>
+                    <div>
+                        <span class="new-money">￥539.00</span>
+                        <a href="#" class="new-A"></a>
+                    </div>
+                </div>
+                <div class="new-list">
+                    <img src="./img/minizhazhiji.jpg"/>
+                    <div class="new-name">
+                        <a href="#">迷你便携电动榨汁机</a>
+                        <span class="new-span">Jiae·中国</span>
+                    </div>
+                    <div>
+                        <span class="new-money">￥159.00</span>
+                        <a href="#" class="new-A"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-div">
+            <div class="service">
+                <p>客服电话</p>
+                <p class="service-phone">4000-999-637</p>
+                <p>10:00-17:00（周一到周五）</p>
+                <p class="service-email">邮箱：e@jiae.com</p>
+                <p class="service-wechat">微信：18721163226</p>
+            </div>
+            <div class="service-two">
+                <p>加意新品</p>
+                <p>加意是中国唯一追求原创和个性化需求的电商及创意社群，我们用心连结真实的美和创意，让每个人都可以自信地创造及实现自在的生活！</p>
+                <div class="service-two-div">
+                    <a href="#">了解加意</a>
+                    <a href="#">ABOUT JIAE</a>
+                </div>
+            </div>
+            <div class="Wechat">
+                <p>扫码关注加意新品公众号</p>
+                <img src="./img/ewm-wx-jiae.jpg"/>
+            </div>
+        </div>
+        <div class="service-nav">
+            <a href="#">ABOUT JIAE</a>
+            <a href="#">了解加意</a>
+            <a href="#">配送与验收</a>
+            <a href="#">商务合作</a>
+            <a href="#">企业采购</a>
+            <a href="#">售后服务</a>
+            <a href="#">支付方式</a>
+            <a href="#">用户协议</a>
+            <a href="#">购物流程</a>
+        </div>
+    </footer>
+    <script src="./animate_1.0.js"></script>
+    <script>
+        var options = {
+            "interval": 2000,
+			"animateTime": 500,
+			"tween": "QuadEaseOut",
+			"width": 1366
+        }
+
+        var bigUl = document.querySelector(".car-imgs");
+        var bigImg = document.querySelectorAll(".car-imgs li");
+        var smallImg = document.querySelectorAll(".car-btns li a img");
+
+        var length = bigImg.length;
+        bigUl.appendChild(bigImg[0].cloneNode(true));
+
+        var idx = 0;
+
+        var timer = setInterval(bigD, options.interval);
+
+        function bigD() {
+			if (bigUl.isAnimated) return;
+
+			idx++;
+			smallD();
+
+			animate(bigUl, {"left": -options.width * idx}, options.animateTime, options.tween, function () {
+				if (idx > length - 1) {
+					idx = 0;
+					bigUl.style.left = "0px";
+				}
+			});
+		}
+
+        function smallD() {
+			var n = idx > length - 1 ? 0 : idx;
+			for (var i = 0; i < smallImg.length; i++) {
+				smallImg[i].className = "SmallImg";
+			}
+			smallImg[n].className = "SmallImg-cur";
+		}
+
+        for (var i = 0; i < smallImg.length; i++) {
+			smallImg[i].index = i;
+			smallImg[i].onmouseenter = function () {
+				idx = this.index;
+				animate(bigUl, {"left": -options.width * idx}, options.animateTime, options.tween);
+				smallD();
+			}
+		}
+    </script>
+</body>
+</html>

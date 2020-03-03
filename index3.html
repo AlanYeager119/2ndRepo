@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>品牌列表</title>
+    <link href="./css/layout.css" rel="stylesheet" type="text/css"/>
+    <link href="./css/moudle.css" rel="stylesheet" type="text/css"/>
+    <link href="./css/state.css" rel="stylesheet" type="text/css"/>
+    <script src="./jquery/1/jquery-1.11.3.js"></script>
+    <script src="./jquery/3/jquery-3.4.1.js"></script>
+</head>
+<body>
+    <header id="header-top">
+        <div class="header">
+            <div class="header-fDiv">
+                <div class="header-logo">每天加一点创意</div>
+                <ul class="header-ul">
+                    <li>[<a href="#">登录</a>|<a href="#">注册</a>]</li>
+                    <li class="jiae1">
+                        <a href="#">我的加意</a>
+                        <div class="jiae1-div">
+							<img src="./img/article-default-pic.png" alt="加意新品"/>
+							<div class="personal">
+								<a href="#">个人中心</a>
+								<a href="#">我的足迹</a>
+								<a href="#">我的心愿单</a>
+								<a href="#">退出登录</a>
+							</div>
+						</div>
+                    </li>
+                    <li class="jiae2"><a href="#">我的订单</a></li>
+                    <li class="jiae3">
+                        <a href="#">手机加意</a>
+                        <div class="jiae3-img">
+							<img src="./img/ewm-wx-jiae.jpg"/>
+							<p>加意官方微信</p>
+						</div>
+                    </li>
+                </ul>
+            </div> 
+        </div>
+        <div class="head-two">
+            <article class="search">
+                <a href="index1.html" class="search-logo"></a>
+					<div class="search-div">
+						<input type="search" placeholder="山羊角咖啡杯" class="search-input"/>
+						<input type="image" src="./img/search.png" class="input-img"/>
+						<div class="search-cart">
+							<a href="#" title="Shopping Cart" class="cart"></a>
+							<div class="cart-div">
+								<div class="total">共计<span class="search-span1"> 0 </span>件商品</div>
+								<div class="total heji">合计<span class="search-span1"> 0 </span>元</div>
+								<a href="#" title="Settlement" class="search-a">立即结算</a>
+							</div>
+						</div>
+					</div>
+            </article>
+            <nav class="nav">
+                <div>
+                    <a href="#">新品</a>
+                </div>
+                <div class="nav-div">
+                    <a href="#">优选家居</a>
+                    <div class="nav-show">
+                        <a class="nav-icon">
+                            <img src="./img/tiexinsheji.png"/>
+                            <span class="nav-name">贴心设计</span>
+                        </a>
+                        <a class="nav-icon">
+                            <img src="./img/zawushouna.png"/>
+                            <span class="nav-name">杂物收纳</span>
+                        </a>
+                        <a class="nav-icon">
+                            <img src="./img/zhuyusan.png"/>
+                            <span class="nav-name">竹语伞</span>
+                        </a>
+                        <a class="nav-icon">
+                            <img src="./img/qijuriyong.png"/>
+                            <span class="nav-name">起居日用</span>
+                        </a>
+                        <a class="nav-icon">
+                            <img src="./img/jingzhishenghuo.jpg"/>
+                            <span class="nav-name">精致生活</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="nav-div">
+                    <a href="#">品味厨房</a>
+                    <div class="nav-show">
+                        <a href="#" class="nav-icon">
+                            <img src="./img/canju.png"/>
+                            <span class="nav-name">餐具</span>
+                        </a>
+                        <a href="#" class="nav-icon">
+                            <img src="./img/daoju.png"/>
+                            <span class="nav-name">刀具</span>
+                        </a>
+                        <a href="#" class="nav-icon">
+                            <img src="./img/chufangxiaobangshou.png"/>
+                            <span class="nav-name">厨房小帮手</span>
+                        </a>
+                        <a href="#" class="nav-icon">
+                            <img src="./img/fangchaobaoxian.png"/>
+                            <span class="nav-name">防潮保鲜</span>
+                        </a>
+                        <a href="#" class="nav-icon">
+                            <img src="./img/canju.png"/>
+                            <span class="nav-name">厨具</span>
+                        </a>
+                        <a href="#" class="nav-icon">
+                            <img src="./img/daoju.png"/>
+                            <span class="nav-name">实用小工具</span>
+                        </a>
+                        <a href="#" class="nav-icon">
+                            <img src="./img/jidantuo.png"/>
+                            <span class="nav-name">鸡蛋托&#38;泡茶器</span>
+                        </a>
+                        <a href="#" class="nav-icon">
+                            <img src="./img/anban.png"/>
+                            <span class="nav-name">砧板</span>
+                        </a>
+                        <a href="#" class="nav-icon">
+                            <img src="./img/shuihu.png"/>
+                            <span class="nav-name">水壶水杯</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="nav-div">
+                    <a href="#">生活电器</a>
+                    <div class="nav-show">
+                        <a href="#" class="nav-icon">
+                            <img src="./img/kongqijinghua.png"/>
+                            <span class="nav-name">空气净化</span>
+                        </a>
+                        <a href="#" class="nav-icon">
+                            <img src="./img/LED.png"/>
+                            <span class="nav-name">LED灯</span>
+                        </a>
+                        <a href="#" class="nav-icon">
+                            <img src="./img/taideng.png"/>
+                            <span class="nav-name">台灯</span>
+                        </a>
+                        <a href="#" class="nav-icon">
+                            <img src="./img/xiaojiadian.png"/>
+                            <span class="nav-name">小家电</span>
+                        </a>
+                        <a href="#" class="nav-icon">
+                            <img src="./img/zhongxilie.png"/>
+                            <span class="nav-name">钟系列</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="nav-div">
+                    <a href="#">极客数码</a>
+                    <div class="nav-show">
+                        <a href="#" class="nav-icon">
+                            <img src="./img/zhinnengshenghuo.png"/>
+                            <span class="nav-name">智能生活</span>
+                        </a>
+                        <a href="#" class="nav-icon">
+                            <img src="./img/shoujidadang.png"/>
+                            <span class="nav-name">手机搭档</span>
+                        </a>
+                        <a href="#" class="nav-icon">
+                            <img src="./img/diannao.png"/>
+                            <span class="nav-name">电脑周边</span>
+                        </a>
+                        <a href="#" class="nav-icon">
+                            <img src="./img/pingmuqingjie.png"/>
+                            <span class="nav-name">屏幕清洁</span>
+                        </a>
+                        <a href="#" class="nav-icon">
+                            <img src="./img/yidongdianyuan.png"/>
+                            <span class="nav-name">移动电源</span>
+                        </a>
+                        <a href="#" class="nav-icon">
+                            <img src="./img/yinxiang.png"/>
+                            <span class="nav-name">音箱</span>
+                        </a>
+                        <a href="#" class="nav-icon">
+                            <img src="./img/erji.png"/>
+                            <span class="nav-name">耳机</span>
+                        </a>
+                        <a href="#" class="nav-icon">
+                            <img src="./img/chazuo.png"/>
+                            <span class="nav-name">多功能插座</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="nav-div">
+                    <a href="#">美酒伴侣</a>
+                    <div class="nav-show">
+                        <a href="#" class="nav-icon">
+                            <img src="./img/hongjiu.png"/>
+                            <span class="nav-name">红酒伴侣</span>
+                        </a>
+                        <a href="#" class="nav-icon">
+                            <img src="./img/pingsai.png"/>
+                            <span class="nav-name">瓶塞</span>
+                        </a>
+                        <a href="#" class="nav-icon">
+                            <img src="./img/jiujia.png"/>
+                            <span class="nav-name">酒架</span>
+                        </a>
+                        <a href="#" class="nav-icon">
+                            <img src="./img/beitie.png"/>
+                            <span class="nav-name">杯帖</span>
+                        </a>
+                        <a href="#" class="nav-icon">
+                            <img src="./img/jiweijiu.png"/>
+                            <span class="nav-name">鸡尾酒</span>
+                        </a>
+                        <a href="#" class="nav-icon">
+                            <img src="./img/jiupinjiangwen.png"/>
+                            <span class="nav-name">酒品降温</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="nav-div">
+                    <a href="#">轻松办公</a>
+                    <div class="nav-show">
+                        <a href="#" class="nav-icon">
+                            <img src="./img/bangongzhushou.png"/>
+                            <span class="nav-name">办公助手</span>
+                        </a>
+                        <a href="#" class="nav-icon">
+                            <img src="./img/zhuomianshouna.png"/>
+                            <span class="nav-name">桌面收纳</span>
+                        </a>
+                        <a href="#" class="nav-icon">
+                            <img src="./img/zhuomianzhengli.png"/>
+                            <span class="nav-name">桌面整理</span>
+                        </a>
+                        <a href="#" class="nav-icon">
+                            <img src="./img/kajia.png"/>
+                            <span class="nav-name">卡夹</span>
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <a href="#">品牌</a>
+                </div>
+                <div>
+                    <a href="#">创意头条</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="map">
+            <img src="./img/jiayiNewPin.jpg"/>
+        </section>
+
+        <section class="brand">
+            <p class="brand-p">品牌列表页</p>
+            <div class="btn btn-left">
+                <img src="./img/left.png"/>
+            </div>
+            <div class="btn btn-right">
+                <img src="./img/right.png"/>
+            </div>
+            
+            <div class="brand-hidden">
+                <ul class="brand-ul">
+                    <li class="brand-ul-li">
+                        <div class="brand-ul-li-div">
+                            <img src="./img/Bathfeeling浴见.jpg"/>
+                            <div class="brand-div-img">
+                                <img src="./img/yujianImg.jpg"/>
+                                <a href="#">Bathfeeling浴见</a>
+                                <a href="#">中国</a>
+                                <p>Bathfeeling浴见，追求自然、健康、环保、可持续的生活，我们关注生活本身，发现生活中的美好，我们希望工作和生活能实现真实的平衡，不被庸俗成功学所束缚，能幸福快乐的生活即是生活的强者。</p>
+                            </div>
+                        </div>
+                        <div class="brand-ul-li-div">
+                            <img src="./img/Bathfeeling2.jpg"/>
+                            <div class="brand-div-img">
+                                <img src="./img/yujianImg2.png"/>
+                                <a href="#">Travel  Blue</a>
+                                <a href="#">英国</a>
+                                <p>Travel Blue蓝旅，作为业内公认被认可的专业旅行配件品牌，成立于1987年，总部设于英国伦敦，专注于旅行配件和电脑箱包系列，专为商务、旅游出行人士量身设计产品，目前在100多个国家和地区有售，是世界范围内免税及旅行零售市场分布广泛的旅行配件品牌。旗下产品种类丰富，拥有9大品类、300多种产品，几乎涵盖旅行所需的所有功能。是目前全球极受欢迎的旅行配件品牌。</p>
+                            </div>
+                        </div>
+                        <div class="brand-ul-li-div">
+                            <img src="./img/Bathfeeling3.jpg"/>
+                            <div class="brand-div-img">
+                                <img src="./img/yujianImg3.png"/>
+                                <a href="#">唤醒者</a>
+                                <a href="#">中国-美国</a>
+                                <p>Travel 能有效的让您立即享受红酒的芳香四溢、风味圆润、质地丰富以及美好的余韵</p>
+                            </div>
+                        </div>
+                        <div class="brand-ul-li-div">
+                            <img src="./img/Bathfeeling4.jpg"/>
+                            <div class="brand-div-img">
+                                <img src="./img/yujianImg4.png"/>
+                                <a href="#">IMM Living</a>
+                                <a href="#">加拿大</a>
+                                <p>Travel 生活核心为出发点</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="brand-ul-li">
+                        <div class="brand-ul-li-div">
+                            <img src="./img/Bathfeeling5.jpg"/>
+                            <div class="brand-div-img">
+                                <img src="./img/yujianImg5.png"/>
+                                <a href="#">beladesign</a>
+                                <a href="#">中国</a>
+                                <p>通过设计将思想与情感注入产品，让产品变得有生命</p>
+                            </div>
+                        </div>
+                        <div class="brand-ul-li-div">
+                            <img src="./img/Bathfeeling6.jpg"/>
+                            <div class="brand-div-img">
+                                <img src="./img/yujianImg6.gif"/>
+                                <a href="#">优尔</a>
+                                <a href="#">中国</a>
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="brand-ul-li-div">
+                            <img src="./img/Bathfeeling7.jpg"/>
+                            <div class="brand-div-img">
+                                <img src="./img/yujianImg7.png"/>
+                                <a href="#">Vacu vin</a>
+                                <a href="#">荷兰</a>
+                                <p>在追求品质与功能的品牌精神指引下，不断创新与研发设计，成为葡萄酒酒具领域和创意厨房用品的全球优质品牌</p>
+                            </div>
+                        </div>
+                        <div class="brand-ul-li-div">
+                            <img src="./img/Bathfeeling8.jpg"/>
+                            <div class="brand-div-img">
+                                <img src="./img/yujianImg8.png"/>
+                                <a href="#">Artiart</a>
+                                <a href="#">台湾</a>
+                                <p>简单，易用，美</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="brand-ul-li">
+                        <div class="brand-ul-li-div">
+                            <img src="./img/Bathfeeling9.jpg"/>
+                            <div class="brand-div-img">
+                                <img src="./img/yujianImg9.png"/>
+                                <a href="#">EMIE</a>
+                                <a href="#">中国</a>
+                                <p>创造融合美学、品质与创新的电子产品</p>
+                            </div>
+                        </div>
+                        <div class="brand-ul-li-div">
+                            <img src="./img/Bathfeeling10.jpg"/>
+                            <div class="brand-div-img">
+                                <img src="./img/yujianImg10.png"/>
+                                <a href="#">Duux</a>
+                                <a href="#">荷兰</a>
+                                <p>以最简单的设计搞定你所需要的</p>
+                            </div>
+                        </div>
+                        <div class="brand-ul-li-div">
+                            <img src="./img/Bathfeeling11.jpg"/>
+                            <div class="brand-div-img">
+                                <img src="./img/yujianImg11.png"/>
+                                <a href="#">Leitz利市</a>
+                                <a href="#">德国</a>
+                                <p>让工作做得更好</p>
+                            </div>
+                        </div>
+                        <div class="brand-ul-li-div">
+                            <img src="./img/Bathfeeling12.jpg"/>
+                            <div class="brand-div-img">
+                                <img src="./img/yujianImg12.png"/>
+                                <a href="#">UIXOO</a>
+                                <a href="#">中国</a>
+                                <p>人、智、合、创</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="brand-ul-li">
+                        <div class="brand-ul-li-div">
+                            <img src="./img/Bathfeeling13.jpg"/>
+                            <div class="brand-div-img">
+                                <img src="./img/yujianImg13.png"/>
+                                <a href="#">shuter</a>
+                                <a href="#">中国</a>
+                                <p>取用有度，常乐之道</p>
+                            </div>
+                        </div>
+                        <div class="brand-ul-li-div">
+                            <img src="./img/Bathfeeling14.jpg"/>
+                            <div class="brand-div-img">
+                                <img src="./img/yujianImg14.png"/>
+                                <a href="#">Umbra</a>
+                                <a href="#">加拿大</a>
+                                <p>让umbra成为时尚休闲家居品领导者</p>
+                            </div>
+                        </div>
+                        <div class="brand-ul-li-div">
+                            <img src="./img/Bathfeeling15.jpg"/>
+                            <div class="brand-div-img">
+                                <img src="./img/yujianImg15.png"/>
+                                <a href="#">Smart Frog</a>
+                                <a href="#">中国</a>
+                                <p>追求灵动的创意产品</p>
+                            </div>
+                        </div>
+                        <div class="brand-ul-li-div">
+                            <img src="./img/Bathfeeling16.jpg"/>
+                            <div class="brand-div-img">
+                                <img src="./img/yujianImg16.png"/>
+                                <a href="#">Inou</a>
+                                <a href="#">中国</a>
+                                <p>智能带给用户的永远是便利</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="brand-ul-li">
+                        <div class="brand-ul-li-div">
+                            <img src="./img/Bathfeeling17.jpg"/>
+                            <div class="brand-div-img">
+                                <img src="./img/yujianImg17.png"/>
+                                <a href="#">MAWA</a>
+                                <a href="#">德国</a>
+                                <p>追求经典、品质和公正</p>
+                            </div>
+                        </div>
+                        <div class="brand-ul-li-div">
+                            <img src="./img/Bathfeeling18.jpg"/>
+                            <div class="brand-div-img">
+                                <img src="./img/yujianImg18.png"/>
+                                <a href="#">十八纸</a>
+                                <a href="#">中国</a>
+                                <p>下一秒，让你看，我们在改变</p>
+                            </div>
+                        </div>
+                        <div class="brand-ul-li-div">
+                            <img src="./img/Bathfeeling19.jpg"/>
+                            <div class="brand-div-img">
+                                <img src="./img/yujianImg19.png"/>
+                                <a href="#">Bluelounge</a>
+                                <a href="#">美国</a>
+                                <p>日常问题的解决专家，让你手上的东西有个家</p>
+                            </div>
+                        </div>
+                        <div class="brand-ul-li-div">
+                            <img src="./img/Bathfeeling20.jpg"/>
+                            <div class="brand-div-img">
+                                <img src="./img/yujianImg20.png"/>
+                                <a href="#">AIKA</a>
+                                <a href="#">中国</a>
+                                <p>智慧生活、爱家创造</p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-div">
+            <div class="service">
+                <p>客服电话</p>
+                <p class="service-phone">4000-999-637</p>
+                <p>10:00-17:00（周一到周五）</p>
+                <p class="service-email">邮箱：e@jiae.com</p>
+                <p class="service-wechat">微信：18721163226</p>
+            </div>
+            <div class="service-two">
+                <p>加意新品</p>
+                <p>加意是中国唯一追求原创和个性化需求的电商及创意社群，我们用心连结真实的美和创意，让每个人都可以自信地创造及实现自在的生活！</p>
+                <div class="service-two-div">
+                    <a href="#">了解加意</a>
+                    <a href="#">ABOUT JIAE</a>
+                </div>
+            </div>
+            <div class="Wechat">
+                <p>扫码关注加意新品公众号</p>
+                <img src="./img/ewm-wx-jiae.jpg"/>
+            </div>
+        </div>
+        <div class="service-nav">
+            <a href="#">ABOUT JIAE</a>
+            <a href="#">了解加意</a>
+            <a href="#">配送与验收</a>
+            <a href="#">商务合作</a>
+            <a href="#">企业采购</a>
+            <a href="#">售后服务</a>
+            <a href="#">支付方式</a>
+            <a href="#">用户协议</a>
+            <a href="#">购物流程</a>
+        </div>
+    </footer>
+
+    <script>
+        var Left = 0;
+        var brandWidth = ($('.brand-ul-li').outerWidth(true)) * ($('.brand-ul-li').length);
+        
+        $('.btn-left').click(function(){
+            $('.btn-right').css("display","block");
+            Left = $('.brand-ul').position().left;
+            if(Left >= 0){
+                $('.btn-left').css("display","none");
+            }else{
+                $('.brand-ul').animate({"left":Left+270},1000);
+            }
+        });
+        $('.btn-right').click(function(){
+            $('.btn-left').css("display","block");
+            Left = $('.brand-ul').position().left;
+            if(-Left == brandWidth-1080){
+                $('.btn-right').css("display","none");
+            }else{
+                $('.brand-ul').animate({"left":Left-270},1000);
+            }
+        });
+
+    </script>
+</body>
+</html>
